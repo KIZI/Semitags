@@ -1,0 +1,418 @@
+ 
+  eng-NG-31-127449-9225835  
+  USENET TEXT  
+  2007-11-10T05:20:00  
+ 
+ 
+Pythagorean Winning Percentage
+ 
+ 
+ 
+  Blinky the Shark <no.s...@box.invalid>  
+  2007-11-10T05:20:00  
+My question about this follows the paste.
+
+<q>
+
+What is pythagorean winning percentage?
+
+Pythagorean winning percentage is an estimate of a team's winning
+percentage given their runs scored and runs allowed. Developed by
+Bill James, it can tell you when teams were a bit lucky or unlucky.
+It is calculated by
+
+(Runs Scored)^1.83
+---------------------------------------------------------
+(Runs Scored)^1.83 +  (Runs Allowed)^1.83
+
+The traditional formula uses an exponent of two, but this has
+proven to be a little more accurate.
+
+</q>
+
+The math is simple.
+
+But what's the premise?
+
+Source: http://www.baseball-reference.com/about/faq.shtml#pyth
+
+--
+Blinky                                                   RLU 297263
+Killing all posts from Google Groups
+The Usenet Improvement Project - http://improve-usenet.org
+ 
+ 
+  M C Hamster <davol...@speakeasy.nospam.net>  
+  2007-11-10T12:11:00  
+On 10 Nov 2007 10:20:29 GMT, Blinky the Shark <no.s ... @box.invalid>
+wrote:
+
+ 
+
+What do you mean, what is the premise?
+
+In baseball, the goal is to score more runs than your opponent scores.
+Over the course of a 162 game schedule, this ratio becomes pretty
+well-defined.  Some teams score more runs than opponents, some score
+less.
+
+But of course these runs fall along a statistical distribution... some
+games a team will score zero runs, some games 1 run, etc.  Similarly
+for the runs they give up.  So just because, let's say, you outscore
+your opponents by an average of 1 run per game, that doesn't mean you
+are going to win every game during the season.
+
+By statistically analyzing the relationships between a team's won-lost
+record and its run differential, you come up with the above formula
+which makes the closest fit between those two sets of data.
+
+If a team gets fewer wins than would be expected based on their run
+differential, they can be considered either unlucky, or chokers.  That
+is, they tend to win blowouts, where they easily outscore their
+opponents, and tend to lose the close one-run games.
+
+This brings us back to the Cubs (doesn't everything?).  I'm looking
+for it, but someone sent me an analysis of, looking over decades,
+which teams had the greatest deficit of wins, based on their run
+differential.  I perhaps don't need to tell you which team was at the
+very bottom of that list.
+
+I did find this in my old emails.  It's only emblematic of the full
+problem of losing the close games... it shows the results of all games
+ending with a final score of 1-0, from 1957-2007.
+
+If you look all the way at the bottom, you'll see the Arizona
+Dbacks, with a small sample of games, and then the Cubs with a much
+larger sample.  You'll see that your Dodgers are second best at
+winning 1-0 games.
+
+Team       Games    Wins  Losses    Win%
+TBD           18      11       7   0.611
+LAN          252     147     105   0.583
+ATL          181     100      81   0.552
+BAL          193     106      87   0.549
+SFG          185     101      84   0.546
+TOR           74      40      34   0.541
+HOU          192     103      89   0.536
+STL          215     115     100   0.535
+LAA          201     107      94   0.532
+MIL          108      57      51   0.528
+TEX          145      76      69   0.524
+NYM          213     111     102   0.521
+SDP          153      78      75   0.510
+NYY          190      96      94   0.505
+CLE          182      92      90   0.505
+COL           16       8       8   0.500
+CHW          230     113     117   0.491
+PHI          217     104     113   0.479
+DET          175      83      92   0.474
+FLA           38      18      20   0.474
+MIN          181      84      97   0.464
+OAK          184      85      99   0.462
+CIN          186      85     101   0.457
+BOS          175      80      95   0.457
+PIT          190      86     104   0.453
+SEA           71      32      39   0.451
+KCR          105      47      58   0.448
+WAS          141      61      80   0.433
+CHC          196      83     113   0.423
+ARI           25       7      18   0.280
+
+--
+M C Hamster  "Big Wheel Keep on Turning" -- Creedence Clearwater Revival
+ 
+ 
+  Blinky the Shark <no.s...@box.invalid>  
+  2007-11-10T14:06:00  
+ 
+
+No shit?
+
+ 
+
+No shit?
+
+ 
+
+No shit?
+
+ 
+
+Right.  Where do those 1.83's come from?
+
+<snip more no-shit material and a table that doesn't address the origin
+of the 1.83 values>
+
+--
+Blinky
+Killing all posts from Google Groups
+The Usenet Improvement Project - http://improve-usenet.org
+ 
+ 
+  "Mike Kruger" <Mik...@mouse-potato.com>  
+  2007-11-10T14:39:00  
+ 
+
+It's from a statistical model. The author determined that 1.83 fit a bit
+better than 2.
+
+I read this article; I think it was in Chance (the ASA journal, not the
+gambling magazine of the same name).
+http://www.amstat.org/publications/chance/index.cfm?fuseaction=main
+but I couldn't find the article when I did a brief search. Statisticians
+love baseball, because there are so many statistics available.
+
+--
+Mike Kruger
+Error is eternal, and wisdom consists in living with it, not letting
+our vanity tell us that it has been transcended. - Michael T. Ghiselin
+ 
+ 
+  M C Hamster <davol...@speakeasy.nospam.net>  
+  2007-11-10T16:41:00  
+On Sat, 10 Nov 2007 13:39:42 -0600, "Mike Kruger"
+
+ 
+
+Right.  You asked for the premise, and I explained the premise.  You
+didn't ask why it's 1.83, which is not the premise for the formula. As
+the article you posted said, "The traditional formula uses an exponent
+of two, but this has proven to be a little more accurate."
+
+Bill James started with the simple 2, since it seemed to fit the data
+quite well, but the statisticians later found 1.83 gave the best fit
+to the actual data.
+
+There are much more advanced approaches than this, e.g.,
+http://www.baseballprospectus.com/article.php?articleid=342 and
+http://baseballprospectus.com/glossary/index.php?mode=viewstat&stat;=136 ,
+which is sabermatrician Clay Davenport's imrprovement of the simple
+Pythagorean model of James, called "Pythagenport".
+
+A claimed improvement on the Pythagenport method is the Smyth/Patriot
+method  called "Pythagenpat".  Here's more on that method, for your
+reading pleasure. http://gosu02.tripod.com/id69.html
+
+And here, if you want your head to explode, is a nice glossary of
+Sabermatrician terms, models,  and measurements.
+http://baseballprospectus.com/glossary/index.php?context=2&category;=true
+
+Any other questions?
+
+--
+M C Hamster  "Big Wheel Keep on Turning" -- Creedence Clearwater Revival
+ 
+ 
+  M C Hamster <davol...@speakeasy.nospam.net>  
+  2007-11-10T17:10:00  
+On 10 Nov 2007 15:41:01 -0600, M C Hamster
+
+ 
+
+I do understand that it was Blinky, not Mike, who asked this, and it
+was to him that I was replying, not Mike.  I should have made that
+clear.  But I didn't.  Sorry.
+
+--
+M C Hamster  "Big Wheel Keep on Turning" -- Creedence Clearwater Revival
+ 
+ 
+  xhos...@gmail.com  
+  2007-11-10T18:19:00  
+Blinky the Shark <no.s ... @box.invalid> wrote:
+
+ 
+
+That 1.83 leads to answers closer to reality than other numbers do.
+
+ 
+
+See, they agree.
+
+Xho
+
+--
+-------------------- http://NewsReader.Com/ --------------------
+The costs of publication of this article were defrayed in part by the
+payment of page charges. This article must therefore be hereby marked
+advertisement in accordance with 18 U.S.C. Section 1734 solely to indicate
+this fact.
+ 
+ 
+  Greg Goss <go...@gossg.org>  
+  2007-11-10T22:11:00  
+M C Hamster <davol ... @speakeasy.nospam.net> wrote:
+
+ 
+
+Considering that Pythagoras did his best work before the founding of
+major league baseball, why is his name attached to this formula?
+Attributing it to an ancient mathematician seems to imply a deeper
+premise than "one team wants to win more runs than the other."
+--
+Tomorrow is today already.
+Greg Goss, 1989-01-27
+ 
+ 
+  Lars Eighner <use...@larseighner.com>  
+  2007-11-10T22:45:00  
+In our last episode, <5pnaejFs53s ... @mid.individual.net>, the lovely and
+talented Greg Goss broadcast on alt.fan.cecil-adams:
+
+ 
+
+Only because the first version of the formula involved several square
+numbers and so struck the inventer a somehow like the algebraic expression
+of the Pythagorean theorem.  That, however, tended to overrepresent
+high-scoring games and the exponents were reduced to 1.81-1.83.  For
+basketball the exponents seem to be greater than 16 to produce the best fit.
+
+ 
+
+--
+Lars Eighner     < http://larseighner.com/ >     < http://myspace.com/larseighner >
+Countdown: 436 days to go.
+What do you do when you're debranded?
+ 
+ 
+  M C Hamster <davol...@speakeasy.nospam.net>  
+  2007-11-11T13:25:00  
+On 11 Nov 2007 03:45:47 GMT, Lars Eighner <use ... @larseighner.com>
+wrote:
+
+ 
+
+There's a Wikipedia page on this.
+http://en.wikipedia.org/wiki/Pythagorean_expectation
+
+It says that one statistician found an exponent of 14 worked well for
+basketball, whereas another found 16.5 was more accurate.
+
+I was curious about this for American Football.  With the low number
+of games played, 16, the R squared may not be that good.   Here's one
+article on this: http://www.footballoutsiders.com/ramblings.php?p=4
+
+This article ( http://tbeck.freeshell.org/fb/nflawards00.html ) shows
+that using the Pythagorean model for football does the best job of
+picking game winners each week.  But it's not showing the exponent,
+making me think they may just have used the original 2 in their
+calculations.
+
+--
+M C Hamster  "Big Wheel Keep on Turning" -- Creedence Clearwater Revival
+ 
+ 
+  M C Hamster <davol...@speakeasy.nospam.net>  
+  2007-11-11T13:48:00  
+On 11 Nov 2007 12:25:03 -0600, M C Hamster
+
+ 
+
+Ah, here's an article that claims an exponent of 2.37 is best for
+football: http://www.pro-football-reference.com/blog/wordpress/?p=337
+
+--
+M C Hamster  "Big Wheel Keep on Turning" -- Creedence Clearwater Revival
+ 
+ 
+  Bob Ward <bobw...@email.com>  
+  2007-11-11T15:24:00  
+On 11 Nov 2007 12:25:03 -0600, M C Hamster
+
+ 
+
+Some people who throw darts use a 2" radius to draw the circle around
+where the dart landed - others use a 6" radius.  Which is more
+accurate?
+ 
+ 
+  M C Hamster <davol...@speakeasy.nospam.net>  
+  2007-11-11T22:19:00  
+On Sun, 11 Nov 2007 12:24:38 -0800, Bob Ward <bobw ... @email.com>
+wrote:
+
+ 
+
+If they used 2.00 as the exponent, they will have more mispredictions
+than if they use the best-fit exponent, which seems to be 2.37 at
+least according to that one analysis.
+
+I'm not sure I understand your comment about the darts... it doesn't
+seem to apply to what I'm saying, which is about attempting to predict
+weekly football scores based on team points scored and allowed.
+
+--
+M C Hamster  "Big Wheel Keep on Turning" -- Creedence Clearwater Revival
+ 
+ 
+  Bob Ward <bobw...@email.com>  
+  2007-11-12T00:15:00  
+On 11 Nov 2007 21:19:08 -0600, M C Hamster
+
+ 
+
+Anyone can score a bullsye by defining the target after the dart is
+thrown.
+ 
+ 
+  Jerry Bauer <use...@bauerstar.com>  
+  2007-11-12T01:07:00  
+On Sun, 11 Nov 2007 21:15:22 -0800, Bob Ward wrote
+(in article <o9ofj3ttv2o74i79ssganibtp8h84ub ... @4ax.com>):
+
+ 
+
+That's what I said!
+
+--
+Jerry "Bullsomething" Bauer
+ 
+ 
+  xhos...@gmail.com  
+  2007-11-12T11:47:00  
+ 
+
+If you throw in something about Vapnik-Chervonenkis, maybe you can get a
+math paper out of that.  Or at least a Numb3rs episode.
+
+Xho
+
+--
+-------------------- http://NewsReader.Com/ --------------------
+The costs of publication of this article were defrayed in part by the
+payment of page charges. This article must therefore be hereby marked
+advertisement in accordance with 18 U.S.C. Section 1734 solely to indicate
+this fact.
+ 
+ 
+  ctbis...@earthlink.net (Charles Bishop)  
+  2007-11-12T12:40:00  
+ 
+
+'
+The throwing darts, then removing all of them that didn't hit the bull's
+eye was one of the metaphors that Charlie used.
+
+--
+charles
+ 
+ 
+  M C Hamster <davol...@speakeasy.nospam.net>  
+  2007-11-12T18:32:00  
+On Mon, 12 Nov 2007 09:40:47 -0800, ctbis ... @earthlink.net (Charles
+
+ 
+
+Is that show any good?  I've watched it once or twice, and while I
+kind of admired its attempt to glamorize intellectual performance as
+opposed to physical prowess, it seemed like they were just throwing
+around some mathematical concepts in a very fuzzy-headed way.  I think
+I did read that they have mathematicians working with the script
+writers... but I don't really know how that goes.
+
+--
+M C Hamster  "Big Wheel Keep on Turning" -- Creedence Clearwater Revival
+ 
+ 
+ 
+ 

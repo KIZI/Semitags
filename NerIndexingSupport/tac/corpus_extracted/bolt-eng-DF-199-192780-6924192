@@ -1,0 +1,205 @@
+ 
+ 
+Spirit of St Louis, if a fly is flying inside a plane....
+ 
+ 
+In an airplane with open windows, there is a fly flying. Does the fly add to the weight of the airplane? If so, and assuming that the fly is able to fly half in the plane and half out of it; is it only contributing 1/2 of its weight? This came from a movie in which C. Lindenberg was speculating on a fly's contribution to the weight of his plane.
+ 
+ 
+Supposing windows open (!) and that the air flows smoothly through the plane, you cannot conclude that the fly adds its weight to the plane itself.
+ 
+ 
+I'd rate that as partly true. BTW, in the spirit of saint louis the windows were open. But even so there is the downward thrust issue.
+ 
+ 
+Ol' Lindy would have been keeping his eyes on the fuel gauges first and foremost. Secondly, I recall that there were no actual windows to the outside of the cockpit - he needed a periscope to 'see' the outside.
+ 
+ 
+But surely it is irrelevant where the windows were?
+
+I know this is a silly question - but why is it relevant whether the windows are open or not?
+ 
+ 
+dissipation
+ 
+ 
+dlowan..
+If windows are closed and the fly was inside the plane, the weight of the fly must add to that of the plane.
+ 
+ 
+100% is added in that scenario, in the open scenario less than 100% is added.
+ 
+ 
+Approximately correct.
+Percentage fluctuates from time to time depending on the motion of the fly.
+(Under the condition of free fall of the fly, the percentage must be nerely zero.)
+ 
+ 
+yup, and the odd thing is that the fly can even go under 0 and over 100 in two scenarios (one would negate the riddle and the other is arguable).
+ 
+ 
+To remain aloft, the fly is exerting a tiny downward force which the plane's engine must compensate for. This is a slightly greater force than the fly's weight, due to the inefficiency of transferring energy to air.
+
+Here's an extreme example to demonstrate this Conservation of Energy principle:
+
+Imagine a large hot air balloon flying overhead with a flat platform on top. A harrier jet is parked on this platform, so the balloon is supporting its weight statically.
+
+When the jet begins to take off, it exerts a downward force equal to its lift, in the form of air movement. The balloon is pushed downward in response to the force needed to launch the harrier.
+
+On a much smaller scale, same with the fly.
+
+The other part of the question is more complex. If the fly is partially outside the plane then it is certainly attached to the plane, contributing its own weight in addition to some drag. Considering the speed of a plane, this effect may be substantially greater than the fly's weight, at least for the few milliseconds before wind shear causes the fly to disintegrate  
+ 
+ 
+Inefficiency, friction, or other disturbing factors are always implicitly assumed to be zero unless you are an engineer.
+You can have fun assuming multiple disturbances.
+ 
+ 
+As someone with a physics degree, I don't think this question is well phrased. The definition of "weight" is "the *force* on an object caused by gravity" (the key word is force). There are at least a couple of ways to interpret the phrase "does the fly add weight".
+
+It is more helpful to restate the question to something concrete that we can measure. A question implied by Kevin is appropriate "How much upward force must by on the plane to keep it flying level" (this force is caused by lift and is not directly caused by the engines).
+
+Kevin analysis is mostly correct. However "conservation of energy" is not relevant here. The important principles are "conservation of momentum" and Newton's second law -- "For every action there is an equal and opposite reaction".
+
+For the fly to stay aloft it must push air down (Newton's third law). This will cause the average velocity of air to increase downward. However if the airplane is closed and traveling level, the air inside will also be travelling level (since it can not leave the plane). The only way for this to happen is if the body of the airplane provides an upward force. This means that there must be an additional upward force provided by the airplane to counteract this.
+
+If the airplane is open then air can travel freely through the plane. As the fly is flying the air can come from above the plane and leave below the plane. The downward force of the air, instead of being provided by the body of the plane, can be provided by the Earth. This is the same as if the fly were simply flying *above* the plane instead of "inside" it.
+
+If the truth is somewhere between these two extremes, you need to analyze the *forces* involved. You have moving air. You presumably have some resistance to the air entering and leaving the plane. You may correctly guess that this could become a very difficult problem.
+
+So the answer is this. If the fly is inside a "closed" plane, this is a pretty easy problem to analyze. The force it takes to keep the fly aloft (i.e. it's weight) is simply added to the force it takes to keep the plane aloft.
+
+If the fly is inside an "open" plane -- meaning that air is free to move in or out of the plane without resistance than this is a completely different problem. You need to have some way to measure the interaction between the disturbance in the air from the fly and the plane. It is possible that they don't interact -- that is, this doesn't violate and conservation laws.
+
+If the fly is somewhere in between these two things the problem is even more difficult. However, if the plane is close to being closed, most of us would just say that the plane is closed since this is much easier to solve and the answer will be a pretty good estimation of the truth.
+ 
+ 
+ebrown_p..
+The qualitative argument is all right.
+The question is concerned with the quantitative answer.
+ 
+ 
+Good discussion, more thought experiments anyone?
+ 
+ 
+Hi Satt,
+
+If the plane is "closed" (i.e. no air will enter or escape) then there is an easy quantitative answer. You can just add the amount of weight of the fly to the weight of the airplane to get the amount of force it takes to keep the plane aloft. (This is certainly quanitative. Give me values for the two weights and I will give you an precise answer.)
+
+If the plane is "open" then there are a lot more factors involved. The fly must put a force on the air beneath its wings to provide the force to keep it aloft. This will accelerate the air if something does not put a conteracting force on it. What would put a force on this air gets difficult.
+
+The question is how does the air moved by the fly's wings interact with the airplane. Think of all of the variables here. The pressure of the air will effect this. The exact location of the fly will effect it. The shape of air currents over the airplane and how they are effected by the contours of the seats will even affect this.
+
+If you want a quantitative answer in this situation you will need to give a lot more information. I don't think a quantitative discussion of this very complex problem is pratical here.
+
+Incidently, it is almost certain that this fly is flying "inside" the "system" of the Earth. I mean the Earth (i.e. the planet and its atmosphere) should without doubt be considered a closed system.
+I don't know why, but this idea seems interesting to me in this context...
+ 
+ 
+ebrown_p..
+Let us suppose that inside the "closed" plane the fly was confined in a vacuum tube and in the state of free fall. I think that in this short interval of time the plane would be freed from the weight of the fly.
+ 
+ 
+Satt,
+
+Sure, although I am not sure I like the term "freed of the weight". In Physics we look at the interaction of the forces involved. The weight of the fly never "belonged" to the plane.
+
+But think about what happens when you jump in an airplane -- especially if you are very heavy and the airplane is very light.
+
+If you jump down from a seat in a plane that was travelling in level flight, the plane will rise a small amount. As you are travelling level, the plane has a small amount of "extra" lift to compensate for your weight (i.e. keep you from falling). As you are falling this extra lift is not necessary. This extra lift will cause the plane to rise.
+
+Of course when you land on the floor of the plan you will need extra force to stop you. This force will be caused by the plane and will cause the plane to sink a small amount.
+
+If you jump up and down repeatedly in a small plane, you may notice this effect. Of course when you are dropping the fly the effect very small.
+
+However the physics are the same.
+ 
+ 
+"Freed from the burden of the weight of the fly."
+ 
+ 
+More importantly, does the flying fly contribute to the airplane staying aloft?
+ 
+ 
+No.
+ 
+ 
+ 
+More importantly, does the flying fly contribute to the airplane staying aloft?
+ 
+
+Actually, yes.
+
+It kept Charlie awake.
+ 
+ 
+Hi Satt: "ALWAYS implicitly assumed" Now I understand why so many non-engineers think alternative energy is cost effective. Neil
+ 
+ 
+I just started a thread on this and then was told there already was one.
+
+I had heard this before and from what I remember, I was told that yes, the fly would add weight because even air inside the plane adds weight. Does that make sense?
+ 
+ 
+if the windows are open wouldn't the fly be sucked out of the plane and therefore his weight wouldn't be there?
+ 
+ 
+How do you know it was a he?
+
+Mebbe she was a she, and full of eggs?
+
+Damned dumb bear!
+
+Read the thread, Momma!
+ 
+ 
+ 
+How do you know it was a he?
+
+Mebbe she was a she, and full of eggs?
+
+Damned dumb bear!
+
+Read the thread, Momma!
+ 
+
+omelet then....
+ 
+ 
+I guess I will have to read it again dlowan. I must have missed something.
+ 
+ 
+ 
+Supposing windows open (!) and that the air flows smoothly through the plane, you cannot conclude that the fly adds its weight to the plane itself.
+ 
+
+That must be one fast fly to keep up with a moving plane in midst of full airflow.
+ 
+ 
+ 
+I just started a thread on this and then was told there already was one.
+
+I had heard this before and from what I remember, I was told that yes, the fly would add weight because even air inside the plane adds weight. Does that make sense?
+ 
+
+Momma, your previous question on the other thread involved a "closed" plane, which has a relatively simple answer.
+
+They are complicating this situation by proposing an open plane and a fly which is "in between" in some way.
+
+The object of their question is to disturb the answer to the simple problem (of a closed plane) by making it less clear where the downdraft of the fly is primarily felt.
+
+However, without going into the physics of forces, it seems to me that any fly which is keeping up with a plane is by necessity caught in an airmass which is moving with the plane, and therefor the fly still adds weight to the plane. If the fly becomes involved with an airmass which is not moving with the plane, then likewise it's weight will no longer be involved with the plane (and it will quickly lose sight of the plane).
+ 
+ 
+Thank you Rosborne,
+
+I did notice that "my" plane was closed and the other wasn't. I have been reading all of these posts with lots of interest. I'm not that great at science but I do find this all very interesting.
+ 
+ 
+Illustration  
+
+A man rode up to the local feed store, bought a sack of feed, slung it on his shoulder, got back on his horse and rode off.
+
+He allowed that it was easier on the horse that way  
+ 
+ 

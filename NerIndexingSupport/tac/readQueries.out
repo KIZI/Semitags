@@ -1,0 +1,10 @@
+Processing query 1 of 2190
+Reading file bolt-eng-DF-200-192451-5799099
+
+/Users/ivo/workspace/NerIndexingSupport/tac/readQueries.js:51
+                    request.post(
+                            ^
+TypeError: Object #<Object> has no method 'post'
+    at /Users/ivo/workspace/NerIndexingSupport/tac/readQueries.js:51:29
+    at fs.js:266:14
+    at Object.oncomplete (fs.js:107:15)

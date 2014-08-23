@@ -1,0 +1,30 @@
+
+
+
+Hi all
+
+im Ruben and im trying to install Trac with Subversion in Linux
+Centos. Im in the last step to finish the tutorial installation guide.
+I have a doubt about mod_wsgi.
+
+Im reading now the info about Wsgi ( http://trac.edgewall.org/wiki/TracModWSGI
+)but i dont't understand well all info.
+
+"It is already possible to run Trac on top of mod_wsgi. This can be
+done by writing the following application script.
+
+import os
+
+os.environ['TRAC_ENV'] = '/usr/local/trac/mysite'
+os.environ['PYTHON_EGG_CACHE'] = '/usr/local/trac/mysite/eggs'
+
+import trac.web.main
+application = trac.web.main.dispatch_request"
+
+What can i do exactly with this? If i understand well, i must put this
+code in a file and then rename to .wsgi. But im not sure. Well, im not
+sure of nothing.
+
+Any help will be appreciated.
+
+A lot of thanks.

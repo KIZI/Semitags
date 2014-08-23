@@ -1,0 +1,122 @@
+ 
+  eng-NG-31-135293-9651601  
+  USENET TEXT  
+  2007-09-20T12:42:00  
+ 
+ 
+Trac and mod_wsgi
+ 
+ 
+ 
+  Ruben O <rubeno...@yahoo.es>  
+  2007-09-20T12:42:00  
+Hi all
+
+im Ruben and im trying to install Trac with Subversion in Linux
+Centos. Im in the last step to finish the tutorial installation guide.
+I have a doubt about mod_wsgi.
+
+Im reading now the info about Wsgi ( http://trac.edgewall.org/wiki/TracModWSGI
+)but i dont't understand well all info.
+
+"It is already possible to run Trac on top of mod_wsgi. This can be
+done by writing the following application script.
+
+import os
+
+os.environ['TRAC_ENV'] = '/usr/local/trac/mysite'
+os.environ['PYTHON_EGG_CACHE'] = '/usr/local/trac/mysite/eggs'
+
+import trac.web.main
+application = trac.web.main.dispatch_request"
+
+What can i do exactly with this? If i understand well, i must put this
+code in a file and then rename to .wsgi. But im not sure. Well, im not
+sure of nothing.
+
+Any help will be appreciated.
+
+A lot of thanks.
+ 
+ 
+  Manuzhai <manuz...@gmail.com>  
+  2007-09-20T13:46:00  
+On 9/20/07, Ruben O <rubeno ... @yahoo.es> wrote:
+
+ 
+
+That's right. Afterwards, use the path to that file in a
+WSGIScriptAlias directive in your Apache configuration files. Be sure
+to also read the instructions about using Trac on the mod_wsgi site
+(should be linked from the TracModWSGI page).
+
+Cheers,
+
+Manuzhai
+ 
+ 
+  Ruben O <rubeno...@yahoo.es>  
+  2007-09-21T06:31:00  
+On Sep 20, 7:46 pm, Manuzhai <manuz ... @gmail.com> wrote:
+
+ 
+
+Hi again and thank you to respond so fast.
+
+I created a test.wsgi file with the code and saved to project trac
+subfolder named apache:
+
+/var/www/html/trac/apache/test.wsgi
+
+Then i try to modify httpd.conf but when i restart apache returns me
+an error. Perhaps i forgot something. The error:
+
+Invalid command 'WSGIScriptAlias', perhaps mis-spelled or defined by a
+module not included in the server configuration
+
+Forgot i something?
+
+Best Regards,
+
+Ruben
+ 
+ 
+  Ruben O <rubeno...@yahoo.es>  
+  2007-09-21T06:41:00  
+I believe is obviusly that i don't have install mod_wsgi :S
+
+Is possible?
+
+Thanks
+
+On Sep 21, 12:31 pm, Ruben O <rubeno ... @yahoo.es> wrote:
+
+ 
+ 
+ 
+  Manuzhai <manuz...@gmail.com>  
+  2007-09-21T07:21:00  
+On 9/21/07, Ruben O <rubeno ... @yahoo.es> wrote:
+
+ 
+
+Yep, that would be the case. For some reason, Apache doesn't yet know
+about the WSGIScriptAlias, which means mod_wsgi isn't properly
+installed.
+
+Cheers,
+
+Manuzhai
+ 
+ 
+  Ruben O <rubeno...@yahoo.es>  
+  2007-09-21T12:15:00  
+Thanks. I will use Tracd. Less problems for now.
+
+On Sep 21, 1:21 pm, Manuzhai <manuz ... @gmail.com> wrote:
+
+ 
+ 
+ 
+ 
+ 

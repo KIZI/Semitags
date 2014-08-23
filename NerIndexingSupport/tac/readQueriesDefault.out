@@ -1,0 +1,492 @@
+Processing query 1 of 2190
+Reading file bolt-eng-DF-200-192451-5799099
+Query name cairo
+Recognized entity cairo
+LOCATION
+EL13_ENG_0001	E0052846	LOC	N	N	N
+
+Time per query 4.012
+Processed queries 1
+Processing query 2 of 2190
+Reading file bolt-eng-DF-200-192453-5806828
+Query name Brittania
+Recognized entity Brittania
+null
+EL13_ENG_0002	NIL0001	GPE	N	N	N
+
+Time per query 6.926
+Processed queries 2
+Processing query 3 of 2190
+Reading file XIN_ENG_20100703.0052
+Query name PNC
+Recognized entity PNC
+ORGANIZATION
+EL13_ENG_0003	E0462439	ORG	N	N	N
+
+Time per query 3.933
+Processed queries 3
+Processing query 4 of 2190
+Reading file AFP_ENG_20100314.0466
+Query name David Diaz
+Recognized entity David Diaz
+PERSON
+EL13_ENG_0004	E0802613	PER	N	N	N
+
+Time per query 3.972
+Processed queries 4
+Processing query 5 of 2190
+Reading file AFP_ENG_20100212.0648
+Query name Federal Competition Commission
+Recognized entity Federal Competition Commission
+ORGANIZATION
+EL13_ENG_0005	NIL0002	ORG	N	N	N
+
+Time per query 4.712
+Processed queries 5
+Processing query 6 of 2190
+Reading file APW_ENG_20100209.1003
+Query name Jiang
+Recognized entity Jiang
+Recognized entity Jiang
+Recognized entity Jiang
+PERSON
+EL13_ENG_0006	NIL0003	PER	N	N	N
+
+Time per query 3.873
+Processed queries 6
+Processing query 7 of 2190
+Reading file eng-NG-31-100506-10870984
+Query name General Motors
+Recognized entity General Motors
+Recognized entity General Motors
+ORGANIZATION
+EL13_ENG_0007	E0787371	ORG	N	N	N
+
+Time per query 3.91
+Processed queries 7
+Processing query 8 of 2190
+Reading file bolt-eng-DF-170-181103-8888234
+Query name Hawkeye State
+Recognized entity Hawkeye State
+null
+EL13_ENG_0008	NIL0004	GPE	N	N	N
+
+Time per query 5.768
+Processed queries 8
+Processing query 9 of 2190
+Reading file bolt-eng-DF-199-192909-6666623
+Query name UKRAINE
+Recognized entity UKRAINE
+Recognized entity UKRAINE
+Recognized entity UKRAINE
+LOCATION
+EL13_ENG_0009	NIL0005	LOC	N	N	N
+
+Time per query 20.87
+Processed queries 9
+Processing query 10 of 2190
+Reading file AFP_ENG_20100120.0809
+Query name Massachusetts
+Recognized entity Massachusetts
+LOCATION
+EL13_ENG_0010	E0505048	LOC	N	N	N
+
+Time per query 4.804
+Processed queries 10
+Processing query 11 of 2190
+Reading file AFP_ENG_20100705.0270
+Query name Spain
+Recognized entity Spain
+Recognized entity Spain
+LOCATION
+EL13_ENG_0011	E0276658	LOC	N	N	N
+
+Time per query 5.428
+Processed queries 11
+Processing query 12 of 2190
+Reading file eng-NG-31-140119-9865255
+Query name Didier Drogba
+Recognized entity Didier Drogba
+PERSON
+EL13_ENG_0012	NIL0006	PER	N	N	N
+
+Time per query 3.796
+Processed queries 12
+Processing query 13 of 2190
+Reading file AFP_ENG_20091027.0364
+Query name Belgrade
+Recognized entity Belgrade
+LOCATION
+EL13_ENG_0013	E0175657	LOC	N	N	N
+
+Time per query 3.798
+Processed queries 13
+Processing query 14 of 2190
+Reading file XIN_ENG_20090813.0026
+Query name PSF
+Recognized entity PSF
+null
+EL13_ENG_0014	E0615869	GPE	N	N	N
+
+Time per query 3.884
+Processed queries 14
+Processing query 15 of 2190
+Reading file bolt-eng-DF-170-181137-9030298
+Query name Lightning Bolts
+Recognized entity Lightning Bolts
+ORGANIZATION
+EL13_ENG_0015	NIL0007	ORG	N	N	N
+
+Time per query 4.289
+Processed queries 15
+Processing query 16 of 2190
+Reading file bolt-eng-DF-200-192451-5796236
+Query name canada
+Recognized entity canada
+Recognized entity canada
+Recognized entity canada
+Recognized entity canada
+Recognized entity canada
+Recognized entity canada
+Recognized entity canada
+Recognized entity canada
+Recognized entity canada
+Recognized entity canada
+Recognized entity canada
+Recognized entity canada
+Recognized entity canada
+Recognized entity canada
+Recognized entity canada
+Recognized entity canada
+Recognized entity canada
+Recognized entity canada
+Recognized entity canada
+Recognized entity canada
+Recognized entity canada
+Recognized entity canada
+Recognized entity canada
+Recognized entity canada
+Recognized entity canada
+LOCATION
+EL13_ENG_0016	E0273299	LOC	N	N	N
+
+Time per query 31.146
+Processed queries 16
+Processing query 17 of 2190
+Reading file LTW_ENG_20090622.0026
+Query name the Pelican State
+Recognized entity the Pelican State
+null
+EL13_ENG_0017	NIL0008	GPE	N	N	N
+
+Time per query 3.783
+Processed queries 17
+Processing query 18 of 2190
+Reading file AFP_ENG_20100401.0328
+Query name Beiruit
+Recognized entity Beiruit
+LOCATION
+EL13_ENG_0018	E0775506	LOC	N	N	N
+
+Time per query 4.082
+Processed queries 18
+Processing query 19 of 2190
+Reading file XIN_ENG_20100213.0131
+Query name Dallas
+Recognized entity Dallas
+LOCATION
+EL13_ENG_0019	NIL0009	LOC	N	N	N
+
+Time per query 3.689
+Processed queries 19
+Processing query 20 of 2190
+Reading file APW_ENG_20100408.0126
+Query name Denver
+Recognized entity Denver
+null
+EL13_ENG_0020	NIL0010	GPE	N	N	N
+
+Time per query 3.864
+Processed queries 20
+Processing query 21 of 2190
+Reading file APW_ENG_20101013.0126
+Query name Los Angeles
+Recognized entity Los Angeles
+null
+EL13_ENG_0021	NIL0011	GPE	N	N	N
+
+Time per query 3.843
+Processed queries 21
+Processing query 22 of 2190
+Reading file bolt-eng-DF-170-181118-8874527
+Query name libya
+Recognized entity libya
+Recognized entity libya
+Recognized entity libya
+LOCATION
+EL13_ENG_0022	E0658319	LOC	N	N	N
+
+Time per query 5.123
+Processed queries 22
+Processing query 23 of 2190
+Reading file NYT_ENG_20100202.0146
+Query name PSC
+Recognized entity PSC
+Recognized entity PSC
+Recognized entity PSC
+Recognized entity PSC
+Recognized entity PSC
+Recognized entity PSC
+Recognized entity PSC
+Recognized entity PSC
+ORGANIZATION
+EL13_ENG_0023	E0692580	ORG	N	N	N
+
+Time per query 3.861
+Processed queries 23
+Processing query 24 of 2190
+Reading file bolt-eng-DF-200-192448-6199232
+Query name beirut
+Recognized entity beirut
+LOCATION
+EL13_ENG_0024	NIL0012	LOC	N	N	N
+
+Time per query 6.123
+Processed queries 24
+Processing query 25 of 2190
+Reading file bolt-eng-DF-170-181137-9034263
+Query name Skank
+Recognized entity Skank
+Recognized entity Skank
+ORGANIZATION
+EL13_ENG_0025	E0283561	ORG	N	N	N
+
+Time per query 6.625
+Processed queries 25
+Processing query 26 of 2190
+Reading file bolt-eng-DF-170-181122-8800094
+Query name New Jersy
+Recognized entity New Jersy
+LOCATION
+EL13_ENG_0026	NIL0013	LOC	N	N	N
+
+Time per query 3.944
+Processed queries 26
+Processing query 27 of 2190
+Reading file APW_ENG_20101002.0648
+Query name Phillippines
+Recognized entity Phillippines
+LOCATION
+EL13_ENG_0027	E0145283	LOC	N	N	N
+
+Time per query 4.026
+Processed queries 27
+Processing query 28 of 2190
+Reading file bolt-eng-DF-199-193409-6487606
+Query name MAN U
+Recognized entity MAN U
+null
+EL13_ENG_0028	NIL0014	GPE	N	N	N
+
+Time per query 5.544
+Processed queries 28
+Processing query 29 of 2190
+Reading file APW_ENG_20101029.0706
+Query name Kuper
+Recognized entity Kuper
+PERSON
+EL13_ENG_0029	NIL0015	PER	N	N	N
+
+Time per query 3.947
+Processed queries 29
+Processing query 30 of 2190
+Reading file eng-NG-31-128535-8373526
+Query name Seattle Mariners
+Recognized entity Seattle Mariners
+ORGANIZATION
+EL13_ENG_0030	NIL0016	ORG	N	N	N
+
+Time per query 3.911
+Processed queries 30
+Processing query 31 of 2190
+Reading file bolt-eng-DF-170-181103-8887944
+Query name D.C.
+Recognized entity D.C.
+Recognized entity D.C.
+Recognized entity D.C.
+Recognized entity D.C.
+Recognized entity D.C.
+Recognized entity D.C.
+Recognized entity D.C.
+Recognized entity D.C.
+Recognized entity D.C.
+Recognized entity D.C.
+Recognized entity D.C.
+Recognized entity D.C.
+Recognized entity D.C.
+Recognized entity D.C.
+Recognized entity D.C.
+Recognized entity D.C.
+Recognized entity D.C.
+Recognized entity D.C.
+Recognized entity D.C.
+Recognized entity D.C.
+Recognized entity D.C.
+Recognized entity D.C.
+Recognized entity D.C.
+Recognized entity D.C.
+Recognized entity D.C.
+Recognized entity D.C.
+Recognized entity D.C.
+Recognized entity D.C.
+Recognized entity D.C.
+Recognized entity D.C.
+Recognized entity D.C.
+Recognized entity D.C.
+Recognized entity D.C.
+LOCATION
+EL13_ENG_0031	NIL0017	LOC	N	N	N
+
+Time per query 5.846
+Processed queries 31
+Processing query 32 of 2190
+Reading file bolt-eng-DF-170-181105-8850780
+Query name Vermont
+Recognized entity Vermont
+Recognized entity Vermont
+Recognized entity Vermont
+Recognized entity Vermont
+Recognized entity Vermont
+Recognized entity Vermont
+Recognized entity Vermont
+Recognized entity Vermont
+Recognized entity Vermont
+Recognized entity Vermont
+Recognized entity Vermont
+Recognized entity Vermont
+LOCATION
+EL13_ENG_0032	NIL0018	LOC	N	N	N
+
+Time per query 3.86
+Processed queries 32
+Processing query 33 of 2190
+Reading file AFP_ENG_20100308.0577
+Query name Turkey
+Recognized entity Turkey
+LOCATION
+EL13_ENG_0033	E0696372	LOC	N	N	N
+
+Time per query 3.799
+Processed queries 33
+Processing query 34 of 2190
+Reading file bolt-eng-DF-170-181103-8912573
+Query name ALASKA
+Recognized entity ALASKA
+LOCATION
+EL13_ENG_0034	NIL0019	LOC	N	N	N
+
+Time per query 5.557
+Processed queries 34
+Processing query 35 of 2190
+Reading file bolt-eng-DF-203-185943-8287832
+Query name JWoww
+Recognized entity JWoww
+null
+EL13_ENG_0035	NIL0020	GPE	N	N	N
+
+Time per query 3.62
+Processed queries 35
+Processing query 36 of 2190
+Reading file AFP_ENG_20100215.0576
+Query name International Ski Federation
+Recognized entity International Ski Federation
+ORGANIZATION
+EL13_ENG_0036	NIL0021	ORG	N	N	N
+
+Time per query 4.243
+Processed queries 36
+Processing query 37 of 2190
+Reading file XIN_ENG_20100906.0277
+Query name Nicaraguan Cycling Federation
+Recognized entity Nicaraguan Cycling Federation
+null
+EL13_ENG_0037	NIL0022	GPE	N	N	N
+
+Time per query 3.835
+Processed queries 37
+Processing query 38 of 2190
+Reading file AFP_ENG_20100219.0141
+Query name Joseph Stack
+Recognized entity Joseph Stack
+PERSON
+EL13_ENG_0038	NIL0023	PER	N	N	N
+
+Time per query 3.833
+Processed queries 38
+Processing query 39 of 2190
+Reading file bolt-eng-DF-199-192783-6870407
+Query name Kosova
+Recognized entity Kosova
+Recognized entity Kosova
+Recognized entity Kosova
+Recognized entity Kosova
+Recognized entity Kosova
+Recognized entity Kosova
+Recognized entity Kosova
+LOCATION
+EL13_ENG_0039	E0603224	LOC	N	N	N
+
+Time per query 5.383
+Processed queries 39
+Processing query 40 of 2190
+Reading file AFP_ENG_20100813.0136
+Query name Independent Democratic Action
+Recognized entity Independent Democratic Action
+null
+EL13_ENG_0040	NIL0024	GPE	N	N	N
+
+Time per query 3.879
+Processed queries 40
+Processing query 41 of 2190
+Reading file LTW_ENG_20090827.0104
+Query name N.H.
+Recognized entity N.H.
+null
+EL13_ENG_0041	NIL0025	GPE	N	N	N
+
+Time per query 3.893
+Processed queries 41
+Processing query 42 of 2190
+Reading file bolt-eng-DF-203-185928-477956
+Query name J-Woww
+Recognized entity J-Woww
+null
+EL13_ENG_0042	NIL0026	GPE	N	N	N
+
+Time per query 3.753
+Processed queries 42
+Processing query 43 of 2190
+Reading file AFP_ENG_20091112.0320
+Query name Sri Lanka
+Recognized entity Sri Lanka
+LOCATION
+EL13_ENG_0043	E0514991	LOC	N	N	N
+
+Time per query 3.921
+Processed queries 43
+Processing query 44 of 2190
+Reading file XIN_ENG_20100222.0092
+Query name CRC
+Recognized entity CRC
+Recognized entity CRC
+Recognized entity CRC
+Recognized entity CRC
+Recognized entity CRC
+Recognized entity CRC
+ORGANIZATION
+EL13_ENG_0044	NIL0027	ORG	N	N	N
+
+Time per query 4.208
+Processed queries 44
+Processing query 45 of 2190
+Reading file APW_ENG_20101229.0672

@@ -1,0 +1,33 @@
+
+
+
+My question about this follows the paste.
+
+<q>
+
+What is pythagorean winning percentage?
+
+Pythagorean winning percentage is an estimate of a team's winning
+percentage given their runs scored and runs allowed. Developed by
+Bill James, it can tell you when teams were a bit lucky or unlucky.
+It is calculated by
+
+(Runs Scored)^1.83
+---------------------------------------------------------
+(Runs Scored)^1.83 +  (Runs Allowed)^1.83
+
+The traditional formula uses an exponent of two, but this has
+proven to be a little more accurate.
+
+</q>
+
+The math is simple.
+
+But what's the premise?
+
+Source: http://www.baseball-reference.com/about/faq.shtml#pyth
+
+--
+Blinky                                                   RLU 297263
+Killing all posts from Google Groups
+The Usenet Improvement Project - http://improve-usenet.org

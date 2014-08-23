@@ -1,0 +1,227 @@
+Processing query 1 of 2190 entitiy: cairo
+Reading file bolt-eng-DF-200-192451-5799099
+Query name cairo
+Recognized entity cairo link: Cairo
+LOCATION
+EL13_ENG_0001	E0546104	LOC	N	N	N
+
+Time per query 10.124
+Processed queries 1
+Processing query 2 of 2190 entitiy: Brittania
+Reading file bolt-eng-DF-200-192453-5806828
+Error calling recognition service (probably network error) Error: socket hang up undefined
+Processing query 3 of 2190 entitiy: PNC
+Reading file XIN_ENG_20100703.0052
+Query name PNC
+Recognized entity PNC link: Palestinian_National_Council
+ORGANIZATION
+EL13_ENG_0003	NIL0001	ORG	N	N	N
+
+Time per query 124.295
+Processed queries 2
+Processing query 4 of 2190 entitiy: David Diaz
+Reading file AFP_ENG_20100314.0466
+Query name David Diaz
+Recognized entity David Diaz link: David_Díaz_(boxer)
+PERSON
+EL13_ENG_0004	E0802613	PER	N	N	N
+
+Time per query 6.577
+Processed queries 3
+Processing query 5 of 2190 entitiy: Federal Competition Commission
+Reading file AFP_ENG_20100212.0648
+Query name Federal Competition Commission
+Recognized entity Federal Competition Commission link: null
+ORGANIZATION
+EL13_ENG_0005	NIL0002	ORG	N	N	N
+
+Time per query 4.656
+Processed queries 4
+Processing query 6 of 2190 entitiy: Jiang
+Reading file APW_ENG_20100209.1003
+Query name Jiang
+Recognized entity Jiang link: Chiang_Kai-shek
+PERSON
+EL13_ENG_0006	E0099189	PER	N	N	N
+
+Time per query 5.614
+Processed queries 5
+Processing query 7 of 2190 entitiy: General Motors
+Reading file eng-NG-31-100506-10870984
+Query name General Motors
+Recognized entity General Motors link: General_Motors
+ORGANIZATION
+EL13_ENG_0007	E0787371	ORG	N	N	N
+
+Time per query 3.575
+Processed queries 6
+Processing query 8 of 2190 entitiy: Hawkeye State
+Reading file bolt-eng-DF-170-181103-8888234
+Error calling recognition service (probably network error) Error: socket hang up undefined
+Processing query 9 of 2190 entitiy: UKRAINE
+Reading file bolt-eng-DF-199-192909-6666623
+Error calling recognition service (probably network error) Error: socket hang up undefined
+Processing query 10 of 2190 entitiy: Massachusetts
+Reading file AFP_ENG_20100120.0809
+Query name Massachusetts
+Recognized entity Massachusetts link: Massachusetts
+LOCATION
+EL13_ENG_0010	E0505048	LOC	N	N	N
+
+Time per query 244.278
+Processed queries 7
+Processing query 11 of 2190 entitiy: Spain
+Reading file AFP_ENG_20100705.0270
+Query name Spain
+Recognized entity Spain link: Spain
+LOCATION
+EL13_ENG_0011	E0276658	LOC	N	N	N
+
+Time per query 57.838
+Processed queries 8
+Processing query 12 of 2190 entitiy: Didier Drogba
+Reading file eng-NG-31-140119-9865255
+Query name Didier Drogba
+Recognized entity Didier Drogba link: Didier_Drogba
+PERSON
+EL13_ENG_0012	NIL0003	PER	N	N	N
+
+Time per query 29.398
+Processed queries 9
+Processing query 13 of 2190 entitiy: Belgrade
+Reading file AFP_ENG_20091027.0364
+Query name Belgrade
+Recognized entity Belgrade link: University_of_Belgrade
+LOCATION
+EL13_ENG_0013	E0400652	LOC	N	N	N
+
+Time per query 3.426
+Processed queries 10
+Processing query 14 of 2190 entitiy: PSF
+Reading file XIN_ENG_20090813.0026
+Query name PSF
+Recognized entity PSF link: Pakistan_Peoples_Party
+null
+EL13_ENG_0014	E0615869	GPE	N	N	N
+
+Time per query 11.933
+Processed queries 11
+Processing query 15 of 2190 entitiy: Lightning Bolts
+Reading file bolt-eng-DF-170-181137-9030298
+Error calling recognition service (probably network error) Error: socket hang up undefined
+Processing query 16 of 2190 entitiy: canada
+Reading file bolt-eng-DF-200-192451-5796236
+Error calling recognition service (probably network error) Error: socket hang up undefined
+Processing query 17 of 2190 entitiy: the Pelican State
+Reading file LTW_ENG_20090622.0026
+Error calling recognition service (probably network error) Error: socket hang up undefined
+Processing query 18 of 2190 entitiy: Beiruit
+Reading file AFP_ENG_20100401.0328
+Query name Beiruit
+Recognized entity Beiruit link: Beirut
+LOCATION
+EL13_ENG_0018	E0775506	LOC	N	N	N
+
+Time per query 405.308
+Processed queries 12
+Processing query 19 of 2190 entitiy: Dallas
+Reading file XIN_ENG_20100213.0131
+Query name Dallas
+Recognized entity Dallas link: Dallas
+LOCATION
+EL13_ENG_0019	NIL0004	LOC	N	N	N
+
+Time per query 10.882
+Processed queries 13
+Processing query 20 of 2190 entitiy: Denver
+Reading file APW_ENG_20100408.0126
+Query name Denver
+Recognized entity Denver link: Denver_Broncos
+null
+EL13_ENG_0020	NIL0005	GPE	N	N	N
+
+Time per query 4.581
+Processed queries 14
+Processing query 21 of 2190 entitiy: Los Angeles
+Reading file APW_ENG_20101013.0126
+Query name Los Angeles
+Recognized entity Los Angeles link: California
+null
+EL13_ENG_0021	E0739132	GPE	N	N	N
+
+Time per query 11.471
+Processed queries 15
+Processing query 22 of 2190 entitiy: libya
+Reading file bolt-eng-DF-170-181118-8874527
+Error calling recognition service (probably network error) Error: socket hang up undefined
+Processing query 23 of 2190 entitiy: PSC
+Reading file NYT_ENG_20100202.0146
+Query name PSC
+Recognized entity PSC link: Politburo_Standing_Committee_of_the_Communist_Party_of_China
+ORGANIZATION
+EL13_ENG_0023	NIL0006	ORG	N	N	N
+
+Time per query 125.89
+Processed queries 16
+Processing query 24 of 2190 entitiy: beirut
+Reading file bolt-eng-DF-200-192448-6199232
+Error calling recognition service (probably network error) Error: socket hang up undefined
+Processing query 25 of 2190 entitiy: Skank
+Reading file bolt-eng-DF-170-181137-9034263
+Error calling recognition service (probably network error) Error: socket hang up undefined
+Processing query 26 of 2190 entitiy: New Jersy
+Reading file bolt-eng-DF-170-181122-8800094
+Query name New Jersy
+Recognized entity New Jersy link: null
+LOCATION
+EL13_ENG_0026	NIL0007	LOC	N	N	N
+
+Time per query 306.578
+Processed queries 17
+Processing query 27 of 2190 entitiy: Phillippines
+Reading file APW_ENG_20101002.0648
+Query name Phillippines
+Recognized entity Phillippines link: Philippines
+LOCATION
+EL13_ENG_0027	E0145283	LOC	N	N	N
+
+Time per query 74.138
+Processed queries 18
+Processing query 28 of 2190 entitiy: MAN U
+Reading file bolt-eng-DF-199-193409-6487606
+Error calling recognition service (probably network error) Error: socket hang up undefined
+Processing query 29 of 2190 entitiy: Kuper
+Reading file APW_ENG_20101029.0706
+Error calling recognition service (probably network error) Error: socket hang up undefined
+Processing query 30 of 2190 entitiy: Seattle Mariners
+Reading file eng-NG-31-128535-8373526
+Query name Seattle Mariners
+Recognized entity Seattle Mariners link: Seattle_Mariners
+ORGANIZATION
+EL13_ENG_0030	NIL0008	ORG	N	N	N
+
+Time per query 243.743
+Processed queries 19
+Processing query 31 of 2190 entitiy: D.C.
+Reading file bolt-eng-DF-170-181103-8887944
+Error calling recognition service (probably network error) Error: socket hang up undefined
+Processing query 32 of 2190 entitiy: Vermont
+Reading file bolt-eng-DF-170-181105-8850780
+Query name Vermont
+Recognized entity Vermont link: Vermont
+LOCATION
+EL13_ENG_0032	NIL0009	LOC	N	N	N
+
+Time per query 175.895
+Processed queries 20
+Processing query 33 of 2190 entitiy: Turkey
+Reading file AFP_ENG_20100308.0577
+Query name Turkey
+Recognized entity Turkey link: Ottoman_Empire
+LOCATION
+EL13_ENG_0033	E0271953	LOC	N	N	N
+
+Time per query 3.389
+Processed queries 21
+Processing query 34 of 2190 entitiy: ALASKA
+Reading file bolt-eng-DF-170-181103-8912573
