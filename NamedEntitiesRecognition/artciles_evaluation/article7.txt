@@ -1,0 +1,38 @@
+http://www.nytimes.com/2012/04/17/science/rise-in-scientific-journal-retractions-prompts-calls-for-reform.html?ref=science#
+A Sharp Rise in Retractions Prompts Calls for Reform
+
+In the fall of 2010, Dr. Ferric C. Fang made an unsettling discovery. Dr. Fang, who is editor in chief of the journal Infection and Immunity, found that one of his authors had doctored several papers.
+
+It was a new experience for him. “Prior to that time,” he said in an interview, “Infection and Immunity had only retracted nine articles over a 40-year period.”
+
+The journal wound up retracting six of the papers from the author, Naoki Mori of the University of the Ryukyus in Japan. And it soon became clear that Infection and Immunity was hardly the only victim of Dr. Mori’s misconduct. Since then, other scientific journals have retracted two dozen of his papers, according to the watchdog blog Retraction Watch.
+
+“Nobody had noticed the whole thing was rotten,” said Dr. Fang, who is a professor at the University of Washington School of Medicine.
+
+Dr. Fang became curious how far the rot extended. To find out, he teamed up with a fellow editor at the journal, Dr. Arturo Casadevall of the Albert Einstein College of Medicine in New York. And before long they reached a troubling conclusion: not only that retractions were rising at an alarming rate, but that retractions were just a manifestation of a much more profound problem — “a symptom of a dysfunctional scientific climate,” as Dr. Fang put it.
+
+Dr. Casadevall, now editor in chief of the journal mBio, said he feared that science had turned into a winner-take-all game with perverse incentives that lead scientists to cut corners and, in some cases, commit acts of misconduct.
+
+“This is a tremendous threat,” he said.
+
+Last month, in a pair of editorials in Infection and Immunity, the two editors issued a plea for fundamental reforms. They also presented their concerns at the March 27 meeting of the National Academies of Sciences committee on science, technology and the law.
+
+Members of the committee agreed with their assessment. “I think this is really coming to a head,” said Dr. Roberta B. Ness, dean of the University of Texas School of Public Health. And Dr. David Korn of Harvard Medical School agreed that “there are problems all through the system.”
+
+No one claims that science was ever free of misconduct or bad research. Indeed, the scientific method itself is intended to overcome mistakes and misdeeds. When scientists make a new discovery, others review the research skeptically before it is published. And once it is, the scientific community can try to replicate the results to see if they hold up.
+
+But critics like Dr. Fang and Dr. Casadevall argue that science has changed in some worrying ways in recent decades — especially biomedical research, which consumes a larger and larger share of government science spending.
+
+In October 2011, for example, the journal Nature reported that published retractions had increased tenfold over the past decade, while the number of published papers had increased by just 44 percent. In 2010 The Journal of Medical Ethics published a study finding the new raft of recent retractions was a mix of misconduct and honest scientific mistakes.
+
+Several factors are at play here, scientists say. One may be that because journals are now online, bad papers are simply reaching a wider audience, making it more likely that errors will be spotted. “You can sit at your laptop and pull a lot of different papers together,” Dr. Fang said.
+
+But other forces are more pernicious. To survive professionally, scientists feel the need to publish as many papers as possible, and to get them into high-profile journals. And sometimes they cut corners or even commit misconduct to get there.
+
+To measure this claim, Dr. Fang and Dr. Casadevall looked at the rate of retractions in 17 journals from 2001 to 2010 and compared it with the journals’ “impact factor,” a score based on how often their papers are cited by scientists. The higher a journal’s impact factor, the two editors found, the higher its retraction rate.
+
+The highest “retraction index” in the study went to one of the world’s leading medical journals, The New England Journal of Medicine. In a statement for this article, it questioned the study’s methodology, noting that it considered only papers with abstracts, which are included in a small fraction of studies published in each issue. “Because our denominator was low, the index was high,” the statement said.
+
+Monica M. Bradford, executive editor of the journal Science, suggested that the extra attention high-impact journals get might be part of the reason for their higher rate of retraction. “Papers making the most dramatic advances will be subject to the most scrutiny,” she said.
+
+Dr. Fang says that may well be true, but adds that it cuts both ways — that the scramble to publish in high-impact journals may be leading to more and more errors. Each year, every laboratory produces a new crop of Ph.D.’s, who must compete for a small number of jobs, and the competition is getting fiercer. In 1973, more than half of biologists had a tenure-track job within six years of getting a Ph.D. By 2006 the figure was down to 15 percent.

@@ -1,0 +1,28 @@
+http://www.nytimes.com/2012/04/19/business/st-judes-defibrillator-heart-device-safety-pledge-falls-short.html?ref=business
+Device Malfunction Casts Doubt on Industry Oversight Pledge
+
+As doctors scramble to understand the risks posed by a flawed heart device component made by St. Jude Medical, the episode is raising a bigger question — whether the $10 billion heart device industry has fully embraced promised safety reforms.
+
+The industry was shaken in 2005 by disclosures that a major maker of heart defibrillators, Guidant, had not warned doctors about a potentially fatal flaw in its products.
+
+Subsequently, Guidant and other device makers promised to set up independent medical advisory boards, to quickly investigate malfunctions in their products and to alert doctors to potential problems. The key to preventing a repeat episode, specialists say, was for manufacturers to scrutinize every death to see if it pointed to an underlying flaw that could kill or injure other patients.
+
+But now the same issues that dogged device makers seven years ago are resurfacing amid a controversy over how St. Jude Medical has handled disclosures about a problem component, a wire — or lead — that connects a defibrillator to a patient’s heart.
+
+Last month, an outside researcher, Dr. Robert Hauser of Minneapolis, released a study indicating that short-circuits and other failures of the St. Jude lead might have played a role in some 20 patient deaths.
+
+His report followed several studies showing that the lead, called the Riata, was also prone to another malfunction, a tendency for internal wires to break through the protective outer coating and cause electrical problems like unintended shocks in some patients. An estimated 128,000 patients worldwide still use the Riata lead, which the company stopped selling in late 2010.
+
+St. Jude executives, including the chief executive, Daniel J. Starks, quickly reacted to Dr. Hauser’s report by unleashing a public relations campaign aimed at discrediting the study’s accuracy and Dr. Hauser. But left unanswered amid the noise was the question: how closely had St. Jude been examining those deaths for signs pointing to a broader problem involving the Riata lead?
+
+“Someone in the company should have been watching this,” said Dr. Robert J, Myerburg, who led an independent investigation into Guidant’s decision not to warn doctors that some of its defibrillators could short-circuit. A defibrillator emits an electrical jolt to interrupt a potentially fatal heart rhythm and restore the normal heartbeat.
+
+In a statement issued in response to questions from The New York Times, Amy Jo Meyer, a St. Jude spokeswoman, said the company regularly updates a panel of outside safety specialists about patient deaths potentially tied to lead failure. But the company declined to disclose how many deaths involving short-circuits and other electrical failures involving the Riata had been presented to that panel.
+
+One member of St. Jude’s lead safety panel, Dr. Bruce Wilkoff of the Cleveland Clinic, said in an e-mail that he did not “have specific recollections of how many patient scenarios” had been presented but added that he was aware of the conditions that could result in a patient’s death. Four other specialists on that board either did not respond to repeated requests for comment or declined to comment on the number of patient deaths St. Jude officials had presented to the panel.
+
+In a telephone interview last week, the company’s chief medical officer, Dr. Mark D. Carlson, said that some patient deaths were inevitable because defibrillators occasionally fail; he added that the types of insulation problems with the Riata were common.
+
+However, other heart device specialists said they were disturbed by St. Jude’s explanations, adding that the number of Riata-related deaths appeared unusually high compared with other leads and pointed to a troubling pattern.
+
+“I would hope that anybody looking at that data would say, hey, something is not right here,” said Dr. Edward J. Schloss of Cincinnati, “I think if you saw 20 high-voltage fatalities with a pretty clear pattern of insulation abrasion, that should get your attention.”

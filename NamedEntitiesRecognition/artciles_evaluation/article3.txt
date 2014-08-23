@@ -1,0 +1,32 @@
+http://www.nytimes.com/2012/04/18/technology/mobile-carriers-warn-of-spectrum-crisis-others-see-hyperbole.html?_r=1&ref=technology
+Carriers Warn of Crisis in Mobile Spectrum
+
+AT&T, Verizon, T-Mobile and Sprint say they need more radio spectrum, the government-rationed slices of radio waves that carry phone calls and wireless data.
+ 
+The wireless carriers say that in the next few years they may not have enough of it to meet the exploding demands for mobile data. The result, they ominously warn, may be slower or spotty connections on smartphones and tablets. They imply in carefully couched language that, given the laws of supply and demand, the price of cellphone service will soar.
+
+It will affect “the services they’re paying for because of the capacity issues,” said Ed McFadden, Verizon’s vice president for policy communications. “It potentially hinders our ability to meet consumer need.”
+
+But is there really a crisis? Some scientists and engineers say the companies are playing a game that is more about protecting their businesses from competitors.
+
+Not even the inventor of the cellphone, Martin Cooper, is convinced that the wireless industry faces a serious challenge that cannot be overcome with technology. Mr. Cooper, a former vice president of Motorola and chairman of Dyna L.L.C., an incubator for new companies, says that claims of a so-called spectrum crisis are largely exaggerated.
+
+“Somehow in the last 100 years, every time there is a problem of getting more spectrum, there is a technology that comes along that solves that problem,” he said in an interview. Mr. Cooper also sits on the technical advisory committee of the Federal Communications Commission, and he previously founded ArrayComm, a company that develops software for mobile antenna technologies, which with he said he is no longer associated.
+
+He explained that for carriers, buying spectrum is the easiest way for them to expand their network, but newer technologies, like improved antennas and techniques for offloading mobile traffic to Wi-Fi networks, could multiply the number of mobile devices that carriers can serve by at least tenfold.
+
+Everyone agrees that data-guzzling smartphones and tablets are selling fast, and the wireless industry needs to keep up. Cisco, the networking company, published a study that shows mobile data usage more than doubled in 2011.
+
+Cellphones are radios and their calls are carried on the electromagnetic radio spectrum just like an FM radio signal or a walkie-talkie. The F.C.C. divides up the spectrum by bands of frequency, under the theory that no one wants signals on certain frequencies interfering with one another.
+
+The F.C.C. hands out licenses for each frequency band to entities like the military, TV stations, astronomy researchers and the phone carriers. Carriers now want some of the spectrum others have and are seeking approval from the F.C.C. to buy it at government auction or by buying licenses for it.
+
+Verizon, the largest carrier in the country, has been on the hunt for more. It has been trying to buy wireless spectrum licenses from a group of cable companies, including Time Warner and Comcast. These transactions are being opposed by T-Mobile USA and some other smaller players in the wireless industry. AT&T’s ill-fated deal to buy T-Mobile came about in large part to get more spectrum.
+
+The F.C.C. believes that a combination of adding new spectrum and using new technologies will be needed to help the wireless industry evolve. “No single action is a silver bullet when it comes to meeting mobile capacity needs,” said Neil Grace, an F.C.C. spokesman. “More efficient use of spectrum, new technologies, and unleashing new spectrum are all important parts of the mix.”
+
+Arguing that the nation could run out of spectrum is like saying it was going to run out of a color, says David P. Reed, one of the original architects of the Internet and a former professor of computer science and engineering at the Massachusetts Institute of Technology. He says electromagnetic spectrum is not finite.
+
+Mr. Reed, who is now senior vice president at SAP Labs, a company that provides business software, explained that there are in fact newer technologies for transmitting and receiving signals so that they do not interfere with one another. That means separating the frequency bands would not be required — in other words, everybody could share spectrum and not run out.
+
+The reason spectrum is treated as though it were finite is because it is still divided by frequencies — an outdated understanding of how radio technology works, he said. “I hate to even use the word ‘spectrum,’ ” he said. “It’s a 1920s understanding of how radio communications work.”

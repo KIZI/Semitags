@@ -1,0 +1,23 @@
+http://online.wsj.com/article/SB10001424052702304432704577349880753868646.html?mod=rss_most_viewed_day_europe?mod=WSJEurope_article_forsub
+Permission to Procrastinate: Wait to Get a New Laptop
+
+If you're thinking of buying a new laptop this spring, my advice is to think again. Unless your laptop is on its last legs and you have to move quickly, there are compelling reasons to wait until at least the summer, and probably the fall, to buy a new machine, especially if you are looking for a Windows PC, but even if you are in the market for a Mac.
+That makes this annual spring buyer's guide a bit different. People always worry that buying tech products today carries a risk of obsolescence. Most of the time, that fear is overblown. But this spring really is a bad time to buy a new laptop, because genuinely big changes are due in the coming months.
+
+On the PC side, Microsoft is set to introduce Windows 8, the most radical new version of Windows in years, probably in the fall. PC makers will be introducing new laptop designs to take advantage of it. While Windows 8 will work with a mouse or touch pad and a keyboard, it will be heavily oriented toward tablet-type touch-screen navigation. Many PC makers are planning convertible Windows 8 models for the holiday shopping season that can act as either tablets or regular clamshell laptops.
+
+If you buy a traditional Windows 7 laptop now, Microsoft says it will very likely be upgradable to Windows 8, but you won't find the new styles of laptops on store shelves now. Even if you buy one of the rare touch-screen laptops now, Microsoft says it will likely work with the touch features of Windows 8, but it may not be optimized to do a great job with the new software. Also, in my view, it is always better, especially with Windows computers, to buy a new machine if you want a new version of Windows.
+
+On the Mac side, Apple also is bringing out a new operating system, this summer. Called Mountain Lion, it won't be as big a change as Windows 8, partly because Apple already has integrated a lot of touch gestures and tablet-type features into the Mac using the touch pad, and has given no indication it plans touch screens.
+
+However, Apple is overdue for redesigned laptops, especially in its MacBook Pro line, and it is a good bet that new, possibly heavily redesigned, models will begin appearing later this year. Current Macs will likely be upgradable to Mountain Lion, but if you buy now, you'll miss out on the likely new hardware.
+
+There is another factor that calls for waiting. Intel, whose processors are used by most Windows PC makers and by Apple, is on the verge of introducing a new family of chips, called Ivy Bridge, which the chip maker claims will offer much faster graphics performance without sacrificing battery life. While some Ivy Bridge laptops will be available very soon, the new chips won't show up in large numbers of consumer laptops until around June. So, even before Windows 8 appears, many consumer laptops you buy now will be outclassed by similar machines that will be introduced this summer.
+
+There is a silver lining. If you watch prices carefully, you may find bargains on Windows 7 laptops running the current Intel processors—which are plenty capable—as the newer models get closer. And PC makers are likely, at some point, to offer free upgrades to Windows 8.
+
+With all of that in mind, here is a cheat sheet to choosing a laptop now, if you must. As always, these tips are for average consumers doing common tasks—email, Web browsing, social networking, general office productivity, photos, music, videos and simple games. This guide isn't meant for corporate buyers or for serious gamers and media producers.
+
+Tablets can reduce your reliance on a laptop and allow you to wait to buy a new one. Tablet users often find they use their laptops less often for daily tasks like email, Web browsing, or social networking.
+
+Windows PC makers are trying to nudge up the price of their laptops, since they feel they make too little profit on them. You can buy a stripped-down Windows laptop for under $300 and an adequate model for around $500. But a well-equipped model typically runs between $600 and $900. The cheapest Mac laptop, the 11-inch MacBook Air, costs $999, and prices quickly climb to $1,200.

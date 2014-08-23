@@ -1,0 +1,14 @@
+http://techcrunch.com/2012/04/18/marketo-buys-social-marketing-app-developer-crowd-factory/
+Marketo Buys Social Marketing App Developer Crowd Factory
+
+Marketo, a company that provides an on-demand marketing software that allows businesses to optimize their sales and marketing efforts has acquired Crowd Factory, a startup that creates white-label social marketing applications. Financial terms of the deal were not disclosed.
+
+Crowd Factory’s social marketing applications allows marketers to amplify and optimize campaigns, and view social-analytics and interactions. The platform allows marketers to add social applications and messages to every channel – Facebook Pages, Twitter and LinkedIn feeds, landing pages, websites, banner ads and emails.
+
+For example, Crowd Factory will take a contest held by a brand and socialize the campaign, increasing interactions and responses. The company’s social offers applications lets marketers build group buying and social gaming elements into their promotions. And marketers can then track and optimize engagement from a single dashboard. The startup has worked with companies such as HBO, Jive, Molson Coors, Sony, Speck and Universal McCann.
+
+So how does this fit in with Marketo? In case you aren’t familiar, Marketo aims to help businesses create revenue via channels like e-mail, lead generation, and optimization of site visits. The company’s software helps businesses create everything from email campaigns to other online and social channels, and then tracks the effectiveness of each one from a dashboard. And Marketo will measure the impact of each campaign and program in real-time including email volumes and leads generated, so users can see which campaign is successful and tweak accordingly.
+
+Crowd Factory, says Marketo CEO Phil Fernandez, fills in the missing social link. With the addition of social campaigns to the Marketo family, the company is able to offer a more comprehensive platform for online marketing.
+
+Marketo says it will soon be debuting a new unified product family integrating social campaign management. The company says that customers have seen as much as a 40% improvement in revenue from using its marketing platform. Last year, Fernandez says revenue was in the $35 million range, and sales are expected to double in 2012. And Marketo, which raised $50 million last year, is bullish on an IPO in the next year or so, with Fernandez saying “the possibility of an IPO is strong in next 12 to 15 months.”
