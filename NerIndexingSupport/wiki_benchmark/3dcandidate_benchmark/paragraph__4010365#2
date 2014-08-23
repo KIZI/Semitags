@@ -1,0 +1,1 @@
+ASM creates extents out of datafiles, log-files, system files, control files and other database structures. The system then spreads these extents across all disks in a \diskgroup\". One can think of a diskgroup in ASM as an Logical Volume Manager volume group —  with an ASM file corresponding to a logical volume. In addition to the existing Oracle background processes

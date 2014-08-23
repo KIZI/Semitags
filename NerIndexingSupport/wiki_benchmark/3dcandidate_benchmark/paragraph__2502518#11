@@ -1,0 +1,1 @@
+As with the other universal constructs in category theory, the \left\" version of the Kan extension is dual to the \"right\" one and is obtained by replacing all categories by their opposites.  The effect of this on the description above is merely to reverse the direction of the natural transformations (recall that a natural transformation T between the functors F

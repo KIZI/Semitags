@@ -1,0 +1,1 @@
+In IBM mainframe environments such as OS/360 this program is known as a linkage editor.  A simpler version that wrote its output directly to memory was called the loader, though loading is typically considered a separate process.

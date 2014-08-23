@@ -1,0 +1,1 @@
+\nPost/Redirect/Get (PRG) is a web development design pattern that prevents some duplicate form submissions, creating a more intuitive interface for user agents (users). PRG implements bookmarks and the refresh button in a predictable way that does not create duplicate form submissions.

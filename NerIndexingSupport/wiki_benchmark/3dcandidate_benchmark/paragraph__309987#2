@@ -1,0 +1,1 @@
+Some oscilloscopes provide a method for triggering on runt pulses.  The oscilloscope triggers when the signal crosses one of two voltage thresholds, but not both.
