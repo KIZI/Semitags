@@ -1,0 +1,1 @@
+<a href="<c:url value="/app/index/" />"><img src="<c:url value="/images/SemiTags.png" />" width="200" /></a>

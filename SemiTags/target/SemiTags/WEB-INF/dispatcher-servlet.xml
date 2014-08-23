@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:p="http://www.springframework.org/schema/p" xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:configurator="http://cocoon.apache.org/schema/configurator"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans 
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context 
+                           http://www.springframework.org/schema/context/spring-context.xsd
+                           http://cocoon.apache.org/schema/configurator
+                           http://cocoon.apache.org/schema/configurator/cocoon-configurator-1.0.1.xsd">
+
+    <context:component-scan base-package="eu.linkedtv.semitags.controllers" />
+    <context:component-scan base-package="cz.ilasek.namedentities.index.dao" />
+    <context:component-scan base-package="eu.linkedtv.semitags.rest" />
+    <context:component-scan base-package="com.mrhaki.spring.mavenapp" />
+    <configurator:settings />
+
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+        <property name="driverClassName" value="${jdbc.driverClassName}" />
+        <property name="url" value="${jdbc.url}" />
+        <property name="username" value="${jdbc.username}" />
+        <property name="password" value="${jdbc.password}" />
+        <property name="initialSize" value="5" />
+        <property name="validationQuery" value="select 1" />
+        <property name="defaultAutoCommit" value="false" />
+        <property name="maxActive" value="10" />
+        <property name="maxIdle" value="10" />
+        <property name="maxWait" value="15000" />
+        <property name="removeAbandoned" value="true" />
+        <property name="removeAbandonedTimeout" value="300" />
+        <property name="testOnBorrow" value="true" />
+    </bean>
+
+    <bean id="englishDisambiguation" class="cz.ilasek.namedentities.disambiguation.CoOccurrenceRedisDisambiguation" scope="prototype">
+        <constructor-arg value="en" />
+        <constructor-arg value="${redis.host.en}" />
+        <constructor-arg value="${redis.db.coOccurrences.en}" />
+    </bean>
+
+    <bean id="germanDisambiguation" class="cz.ilasek.namedentities.disambiguation.CoOccurrenceRedisDisambiguation" scope="prototype">
+        <constructor-arg value="de" />
+        <constructor-arg value="${redis.host.de}" />
+        <constructor-arg value="${redis.db.coOccurrences.de}" />
+    </bean>
+    
+    <bean id="dutchDisambiguation" class="cz.ilasek.namedentities.disambiguation.CoOccurrenceRedisDisambiguation" scope="prototype">
+        <constructor-arg value="nl" />
+        <constructor-arg value="${redis.host.nl}" />
+        <constructor-arg value="${redis.db.coOccurrences.nl}" />
+    </bean>    
+
+    <bean id="englishCandidatesGenerator" class="cz.ilasek.namedentities.disambiguation.RedisCandidatesGenerator" scope="prototype">
+        <constructor-arg value="${redis.host.en.surfaceForms}" />
+        <constructor-arg value="${redis.db.surfaceForms.en}" />
+    </bean>
+
+    <bean id="germanCandidatesGenerator" class="cz.ilasek.namedentities.disambiguation.RedisCandidatesGenerator" scope="prototype">
+        <constructor-arg value="${redis.host.de}" />
+        <constructor-arg value="${redis.db.surfaceForms.de}" />
+    </bean>
+        
+    <bean id="dutchCandidatesGenerator" class="cz.ilasek.namedentities.disambiguation.RedisCandidatesGenerator" scope="prototype">
+        <constructor-arg value="${redis.host.nl}" />
+        <constructor-arg value="${redis.db.surfaceForms.nl}" />
+    </bean>
+
+    <bean id="englishRecognizer" class="cz.ilasek.namedentities.recognition.EnglishStanfordRecognizer">
+        <property name="modelDirectory" value="${models.stanford}" />
+    </bean>
+
+    <bean id="germanRecognizer" class="cz.ilasek.namedentities.recognition.GermanStanfordRecognizer">
+        <constructor-arg value="NEWS_WIRE" />
+        <property name="modelDirectory" value="${models.stanford}" />
+    </bean>
+
+    <bean id="dutchOnlpRecognizer" class="cz.ilasek.namedentities.recognition.DutchONLPRecognizer">
+        <property name="modelDirectory" value="${models.onlp}" />
+    </bean>
+
+    <bean id="dutchStanfordRecognizer" class="cz.ilasek.namedentities.recognition.DutchStanfordRecognizer">
+        <property name="modelDirectory" value="${models.stanford}" />
+    </bean>
+
+    <bean id="indexController" class="eu.linkedtv.semitags.controllers.IndexController" />
+
+    <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"></property>
+        <property name="prefix" value="/WEB-INF/jsp/"></property>
+        <property name="suffix" value=".jsp"></property>
+    </bean>
+</beans>

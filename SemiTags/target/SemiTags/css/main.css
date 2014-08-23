@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+body                        { font-family: "Arial CE", Arial, "Helvetica CE", Helvetica, sans-serif; font-size: 12px; font-weight: normal; color: #333333; background: white; text-align: left; }
+pre                         { width: 80%; margin: auto; overflow: auto; padding: 1em; background: #eee; }
+a                           { color: #1F75CC; text-decoration: none; }
+a:hover                     { text-decoration: underline; }
+
+#form                       { width: 50%; float: left; height: 200px; }
+#form textarea              { width: 90%; height: 150px; }
+#form form                  { position: fixed; width: 50%; }
+#rightcol                   { margin-left: 51%; font-size: 13px; }
+#rightcol h3                { margin-top: 0; font-size: 17px; }
+#rightcol li                { margin-bottom: 5px; }
+
+#ack                        { clear: both;}

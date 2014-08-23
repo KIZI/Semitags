@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<namedEntities>
+    <namedEntity>
+        <confidence>24.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Generalmusikdirektor</dbpediaUri>
+        <name>GMD</name>
+        <type>organization</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Generalmusikdirektor</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>2.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Karl_Gr%C3%BCnberg_(Schriftsteller)</dbpediaUri>
+        <name>Karl Grünberg</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Karl_Gr%C3%BCnberg_(Schriftsteller)</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>2.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Karla_Sachse</dbpediaUri>
+        <name>Karla Sachse</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Karla_Sachse</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>330.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Johann_Sebastian_Bach</dbpediaUri>
+        <name>Bachs</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Johann_Sebastian_Bach</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>42.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Klaus_Gysi</dbpediaUri>
+        <name>Klaus Gysi</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Klaus_Gysi</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>18.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Helga_Hahnemann</dbpediaUri>
+        <name>Helga Hahnemann</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Helga_Hahnemann</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>14.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Theo_Adam</dbpediaUri>
+        <name>Theo Adam</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Theo_Adam</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>6.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Regina_Thoss</dbpediaUri>
+        <name>Regina Thoss</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Regina_Thoss</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>246.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Bertolt_Brecht</dbpediaUri>
+        <name>Brechts</name>
+        <type>organization</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Bertolt_Brecht</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>28.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Victor_Hugo</dbpediaUri>
+        <name>Hugo</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Victor_Hugo</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>28.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Harry_Kupfer</dbpediaUri>
+        <name>Harry Kupfer</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Harry_Kupfer</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>17688.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Deutschland</dbpediaUri>
+        <name>deutschen</name>
+        <type>miscellaneous</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Deutschland</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>2.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Fotografie</dbpediaUri>
+        <name>Foto</name>
+        <type>location</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Fotografie</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>208.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Wien</dbpediaUri>
+        <name>Wiener</name>
+        <type>miscellaneous</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Wien</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>334.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Helene_Weigel</dbpediaUri>
+        <name>Helene Weigel</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Helene_Weigel</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>2.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Hamburger_Kammerspiele</dbpediaUri>
+        <name>Kammerspiele</name>
+        <type>location</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Hamburger_Kammerspiele</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>3206.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Vereinigtes_K%C3%B6nigreich</dbpediaUri>
+        <name>Briten</name>
+        <type>miscellaneous</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Vereinigtes_K%C3%B6nigreich</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>4.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Vera_Friedl%C3%A4nder</dbpediaUri>
+        <name>Vera Friedländer</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Vera_Friedl%C3%A4nder</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>144.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Wieland_Herzfelde</dbpediaUri>
+        <name>Wieland Herzfelde</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Wieland_Herzfelde</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>2.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Johanna_Schall</dbpediaUri>
+        <name>Johanna Schall</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Johanna_Schall</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>210.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Br%C3%BCder_Grimm</dbpediaUri>
+        <name>Grimms</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Br%C3%BCder_Grimm</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>214.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Berlin</dbpediaUri>
+        <name>Berliner</name>
+        <type>miscellaneous</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Berlin</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>14.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Jutta_Wachowiak</dbpediaUri>
+        <name>Jutta Wachowiak</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Jutta_Wachowiak</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>2.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Island</dbpediaUri>
+        <name>IS</name>
+        <type>organization</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Island</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>12.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Ulrich_M%C3%BChe</dbpediaUri>
+        <name>Ulrich Mühe</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Ulrich_M%C3%BChe</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>8.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Akrobatik</dbpediaUri>
+        <name>Akrobatik</name>
+        <type>organization</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Akrobatik</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>422.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Hanns_Eisler</dbpediaUri>
+        <name>Hanns Eisler</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Hanns_Eisler</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>4814.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Deutsche_Demokratische_Republik</dbpediaUri>
+        <name>DDR</name>
+        <type>location</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Deutsche_Demokratische_Republik</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>22.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Dieter_Mann</dbpediaUri>
+        <name>Dieter Mann</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Dieter_Mann</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>28.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Ruth_Zechlin</dbpediaUri>
+        <name>Ruth Zechlin</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Ruth_Zechlin</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>50.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Johannes_Brahms</dbpediaUri>
+        <name>Brahms</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Johannes_Brahms</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>10.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/DEFA</dbpediaUri>
+        <name>DEFA</name>
+        <type>organization</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/DEFA</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>242.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Arnold_Zweig</dbpediaUri>
+        <name>Arnold Zweig</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Arnold_Zweig</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>28.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Winfried_Junge</dbpediaUri>
+        <name>Winfried Junge</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Winfried_Junge</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>4.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Ines_Paulke</dbpediaUri>
+        <name>Ines Paulke</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Ines_Paulke</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>8.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Rolf_Reuter</dbpediaUri>
+        <name>Rolf Reuter</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Rolf_Reuter</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>2.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Wolfgang_Heinz_(Schauspieler)</dbpediaUri>
+        <name>Wolfgang Heinz</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Wolfgang_Heinz_(Schauspieler)</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>8.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Rudi_Strahl</dbpediaUri>
+        <name>Rudi Strahl</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Rudi_Strahl</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>52.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Staatsoper_Unter_den_Linden</dbpediaUri>
+        <name>Deutschen Staatsoper</name>
+        <type>organization</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Staatsoper_Unter_den_Linden</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>2.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Michael_Sanderling</dbpediaUri>
+        <name>Michael Sanderling</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Michael_Sanderling</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>16.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Franz%C3%B6sischer_Dom</dbpediaUri>
+        <name>Französischen Doms</name>
+        <type>location</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Franz%C3%B6sischer_Dom</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>4.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Hello_(Lionel-Richie-Lied)</dbpediaUri>
+        <name>Hello</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Hello_(Lionel-Richie-Lied)</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>280.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Ernst_Busch_(Schauspieler)</dbpediaUri>
+        <name>Ernst Busch</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Ernst_Busch_(Schauspieler)</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>242.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/John_Heartfield</dbpediaUri>
+        <name>John Heartfield</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/John_Heartfield</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>60.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Max_Lingner</dbpediaUri>
+        <name>Max Lingner</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Max_Lingner</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>2.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Gisela_Karau</dbpediaUri>
+        <name>Gisela Karau</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Gisela_Karau</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>52.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Franz%C3%B6sische_Revolution</dbpediaUri>
+        <name>Französischen Revolution</name>
+        <type>organization</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Franz%C3%B6sische_Revolution</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>30.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Universit%C3%A4t_der_K%C3%BCnste_Berlin</dbpediaUri>
+        <name>Berliner Musikhochschule</name>
+        <type>organization</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Universit%C3%A4t_der_K%C3%BCnste_Berlin</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>4.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Arnulf_Wenning</dbpediaUri>
+        <name>Arnulf Wenning</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Arnulf_Wenning</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>198.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Johannes_R._Becher</dbpediaUri>
+        <name>Johannes R. Becher</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Johannes_R._Becher</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>10.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Hans_Jacobus</dbpediaUri>
+        <name>Hans Jacobus</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Hans_Jacobus</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>26.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Canto_General</dbpediaUri>
+        <name>Canto General</name>
+        <type>organization</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Canto_General</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>88.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Cottbus</dbpediaUri>
+        <name>Cottbus</name>
+        <type>location</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Cottbus</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>7250.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Dresden</dbpediaUri>
+        <name>Dresden</name>
+        <type>location</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Dresden</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>4.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Peter_Bause</dbpediaUri>
+        <name>Peter Bause</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Peter_Bause</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>22.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Sankt_Petersburg</dbpediaUri>
+        <name>Leningrader</name>
+        <type>miscellaneous</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Sankt_Petersburg</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>2.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/P%C3%A1pa</dbpediaUri>
+        <name>Papa</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/P%C3%A1pa</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>52.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Pablo_Neruda</dbpediaUri>
+        <name>Pablo Nerudas</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Pablo_Neruda</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>46.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Jacques_Offenbach</dbpediaUri>
+        <name>Offenbachs</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Jacques_Offenbach</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>430.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Anna_Seghers</dbpediaUri>
+        <name>Anna Seghers</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Anna_Seghers</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>328.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/George_Grosz</dbpediaUri>
+        <name>George Grosz</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/George_Grosz</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>22.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Josef_Hegenbarth</dbpediaUri>
+        <name>Josef Hegenbarth</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Josef_Hegenbarth</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>6.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Vera_Oelschlegel</dbpediaUri>
+        <name>Vera Oelschlegel</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Vera_Oelschlegel</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>2.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Ronald_Paris</dbpediaUri>
+        <name>Ronald Paris</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Ronald_Paris</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <confidence>6.0</confidence>
+        <dbpediaUri>http://de.dbpedia.org/resource/Katja_Paryla</dbpediaUri>
+        <name>Katja Paryla</name>
+        <type>person</type>
+        <wikipediaUri>http://de.wikipedia.org/wiki/Katja_Paryla</wikipediaUri>
+    </namedEntity>
+</namedEntities>

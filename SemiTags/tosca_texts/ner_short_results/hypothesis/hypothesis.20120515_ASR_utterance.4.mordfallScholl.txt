@@ -1,0 +1,7 @@
+Brandenburgs (I-LOC)
+Heinrich Scholl (I-PER)
+Ludwigsfelde (I-LOC)
+Heinrich Scholl (I-PER)
+Brigitte Scholz (I-PER)
+Brigitte (I-PER)
+Ludwigsfelde (I-LOC)

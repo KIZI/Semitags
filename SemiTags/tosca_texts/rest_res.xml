@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<namedEntities>
+    <namedEntity>
+        <occurrence start="10" end="21" />
+        <occurrence start="85" end="96" />
+        <occurrence start="226" end="237" />
+        <confidence>-1.0</confidence>
+        <dbpediaUri>http://dbpedia.org/resource/Fake</dbpediaUri>
+        <name>Brandenburg</name>
+        <type>I-LOC</type>
+        <wikipediaUri>http://wikipedia.org/wiki/Fake</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <occurrence start="85" end="98" />
+        <confidence>-1.0</confidence>
+        <dbpediaUri>http://dbpedia.org/resource/Fake</dbpediaUri>
+        <name>Brandenburger</name>
+        <type>I-MISC</type>
+        <wikipediaUri>http://wikipedia.org/wiki/Fake</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <occurrence start="169" end="175" />
+        <confidence>-1.0</confidence>
+        <dbpediaUri>http://dbpedia.org/resource/Fake</dbpediaUri>
+        <name>Scholl</name>
+        <type>I-PER</type>
+        <wikipediaUri>http://wikipedia.org/wiki/Fake</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <occurrence start="445" end="459" />
+        <confidence>-1.0</confidence>
+        <dbpediaUri>http://dbpedia.org/resource/Fake</dbpediaUri>
+        <name>Ludger Smolker</name>
+        <type>I-PER</type>
+        <wikipediaUri>http://wikipedia.org/wiki/Fake</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <occurrence start="445" end="451" />
+        <occurrence start="539" end="545" />
+        <confidence>-1.0</confidence>
+        <dbpediaUri>http://dbpedia.org/resource/Fake</dbpediaUri>
+        <name>Ludger</name>
+        <type>I-PER</type>
+        <wikipediaUri>http://wikipedia.org/wiki/Fake</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <occurrence start="920" end="931" />
+        <confidence>-1.0</confidence>
+        <dbpediaUri>http://dbpedia.org/resource/Fake</dbpediaUri>
+        <name>Rolf Funkel</name>
+        <type>I-PER</type>
+        <wikipediaUri>http://wikipedia.org/wiki/Fake</wikipediaUri>
+    </namedEntity>
+    <namedEntity>
+        <occurrence start="1748" end="1754" />
+        <confidence>-1.0</confidence>
+        <dbpediaUri>http://dbpedia.org/resource/Fake</dbpediaUri>
+        <name>Millau</name>
+        <type>I-LOC</type>
+        <wikipediaUri>http://wikipedia.org/wiki/Fake</wikipediaUri>
+    </namedEntity>
+</namedEntities>
