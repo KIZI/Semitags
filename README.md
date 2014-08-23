@@ -19,5 +19,5 @@ Older version of our named entity recognition and disambiguation tool. Still sup
 
 ### NamedEntitiesRecognition
 
-Java project with support class for multilingual named entity recognition. Implements three named entity linking methods (TF-ICF back of words context represnetation, Sum co-occurrence disambiguation and subject-verb-object disambiguation).
+Java project with support classes for multilingual named entity recognition. Implements three named entity linking methods (TF-ICF back of words context represnetation, Sum co-occurrence disambiguation and subject-verb-object disambiguation).
 
