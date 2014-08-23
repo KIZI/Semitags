@@ -1,3 +1,5 @@
+![SemiTags](http://ner.vse.cz/SemiTags/images/SemiTags.png)
+
 Semitags
 ========
 
