@@ -9,6 +9,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
     <script src="css/bootstrap/js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
 </head>
@@ -32,6 +33,13 @@
                     </select>
                 </div>
                 <div class="form-group">
+                    <select id="lang" name="lang" class="form-control">
+                        <option value="en">English</option>
+                        <option value="de">German</option>
+                        <option value="nl">Dutch</option>
+                    </select>
+                </div>                
+                <div class="form-group">
                     <textarea name="text" id="txtarea" class="form-control" rows="8"></textarea>
                 </div>
                 <div class="form-group">
@@ -46,8 +54,12 @@
             
             <hr />
             
-            <div id="result">
-            
+            <div id="result-pane">
+                <div id="loading">
+                    <span class="glyphicon glyphicon-refresh glyphicon-refresh-animate"></span> Loading...
+                </div>
+                <div id="error" class="alert alert-danger text-center">Problem calling SemiTags Web Service</div>
+                <div id="result"></div>
             </div>
         </div>
         

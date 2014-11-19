@@ -1,52 +1,68 @@
 $(document).ready(function() {
     $("#textform").submit(function(event){
+        $("#error").hide();
+        $("#loading").show();
         event.preventDefault();
-        $.post("http://nlp.vse.cz:8081/recognize", $(this).serialize(), function(data) {
-            var html = "<ul>";
-            var annotatedText = $("#txtarea").val();
-            var indices = [];
-            for (var i in data) {
-                if (data[i].link) {
-                    if (data[i].link.indexOf("http://www.wikipedia.org/wiki/") != 0) {
-                        data[i].link = "http://www.wikipedia.org/wiki/" + data[i].link;
+        var formData = $(this).serialize();
+        $.ajax({
+                url: "http://nlp.vse.cz:8081/recognize",
+                data: formData, 
+                type: 'POST',
+                success: function(data) {
+                    $("#loading").hide();
+                    var html = "<ul>";
+                    var annotatedText = $("#txtarea").val();
+                    var lang = $("#lang").val();
+                    var indices = [];
+                    for (var i in data) {
+                        if (data[i].link) {
+                            if (data[i].link.indexOf("http://" + lang + ".wikipedia.org/wiki/") != 0) {
+                                data[i].link = "http://" + lang + ".wikipedia.org/wiki/" + data[i].link;
+                            }
+                            
+                            getAllIndicies(annotatedText, data[i].name, data[i], indices);
+                            
+        //                    annotatedText = annotatedText.substring(0, pos) 
+        //                        + "<a href=\"http://wikipedia.org/wiki/" + data[i].link + "\" target=\"blank\">" + data[i].name + "</a>"
+        //                        + annotatedText.substring(pos + data[i].name.length, annotatedText.length);
+        //                    offset = pos + ("<a href=\"http://wikipedia.org/wiki/" + data[i].link + "\" target=\"blank\">" + data[i].name + "</a>").length - data[i].name.length;
+                            
+                            if (data[i].score)
+                                html += "<li><a href=\"" + data[i].link + "\" target=\"blank\">" + data[i].name + "</a> [" + data[i].type + "] (confidence: " + data[i].score + ")</li>";
+                            else 
+                                html += "<li><a href=\"" + data[i].link + "\" target=\"blank\">" + data[i].name + "</a> [" + data[i].type + "]</li>";
+                        }
+                        else
+                            html += "<li>" + data[i].name + "[" + data[i].type + "] </li>";
                     }
                     
-                    getAllIndicies(annotatedText, data[i].name, data[i], indices);
+                    indices.sort(function(a, b) {
+                        return a.index - b.index;
+                    });
                     
-//                    annotatedText = annotatedText.substring(0, pos) 
-//                        + "<a href=\"http://wikipedia.org/wiki/" + data[i].link + "\" target=\"blank\">" + data[i].name + "</a>"
-//                        + annotatedText.substring(pos + data[i].name.length, annotatedText.length);
-//                    offset = pos + ("<a href=\"http://wikipedia.org/wiki/" + data[i].link + "\" target=\"blank\">" + data[i].name + "</a>").length - data[i].name.length;
+                    var offset = 0;
+                    console.log(indices);
+                    console.log(annotatedText);
+                    for (var i in indices) {
+                        indices[i]
+                        var pos = indices[i].index;
+                        annotatedText = annotatedText.substring(0, pos + offset)
+                        + "<a href=\"" + indices[i].data.link + "\" target=\"blank\">" + indices[i].data.name + "</a>"
+                        + annotatedText.substring(pos + offset + indices[i].data.name.length, annotatedText.length + offset);
+                        offset = offset + ("<a href=\"" + indices[i].data.link + "\" target=\"blank\">" + indices[i].data.name + "</a>").length - indices[i].data.name.length;                
+                    }
                     
-                    if (data[i].score)
-                        html += "<li><a href=\"" + data[i].link + "\" target=\"blank\">" + data[i].name + "</a> [" + data[i].type + "] (confidence: " + data[i].score + ")</li>";
-                    else 
-                        html += "<li><a href=\"" + data[i].link + "\" target=\"blank\">" + data[i].name + "</a> [" + data[i].type + "]</li>";
+                    html += "</ul>";
+                    
+                    $("#textres").html(annotatedText.replace(/\n/g, "<br />"));
+                    $("#result").html(html);
+                },
+                statusCode: {
+                    500: function() {
+                        $("#loading").hide();
+                        $("#error").show();
+                    }
                 }
-                else
-                    html += "<li>" + data[i].name + "[" + data[i].type + "] </li>";
-            }
-            
-            indices.sort(function(a, b) {
-                return a.index - b.index;
-            });
-            
-            var offset = 0;
-            console.log(indices);
-            console.log(annotatedText);
-            for (var i in indices) {
-                indices[i]
-                var pos = indices[i].index;
-                annotatedText = annotatedText.substring(0, pos + offset)
-                + "<a href=\"" + indices[i].data.link + "\" target=\"blank\">" + indices[i].data.name + "</a>"
-                + annotatedText.substring(pos + offset + indices[i].data.name.length, annotatedText.length + offset);
-                offset = offset + ("<a href=\"" + indices[i].data.link + "\" target=\"blank\">" + indices[i].data.name + "</a>").length - indices[i].data.name.length;                
-            }
-            
-            html += "</ul>";
-            
-            $("#textres").html(annotatedText.replace(/\n/g, "<br />"));
-            $("#result").html(html);
         });
     });
 });

@@ -16,10 +16,32 @@ var SEMITAGS_NER_URL = "http://localhost:8080/SemiTags/rest/v1/ner";
 var REDIS_PORT = 6379;
 var REDIS_HOST = "localhost";
 var REDIS_DATABASE_ORIGINAL = 2;
-var REDIS_DATABASE_NORMALIZED = 3;
-var REDIS_DATABASE_COOC = 6;
+var REDIS_DATABASE_NORMALIZED = {
+        en: 3,
+        nl: 9,
+        de: 10
+};
+var REDIS_DATABASE_COOC = {
+        en: 6,
+        nl: 11,
+        de: 12
+}
 var SEPARATOR  = "#$#";
 
+var TYPE_MAP = {
+        "LOCATION" : "location",
+        "I-LOC" : "location",
+        "B-LOC" : "location",
+        "MISCELLANEUS" : "miscellaneous",
+        "I-MISC" : "miscellaneous",
+        "B-MISC" : "miscellaneous",
+        "ORGANIZATION" : "organization",
+        "I-ORG" : "organization",
+        "B-ORG" : "organization",
+        "PERSON" : "person",
+        "I-PER" : "person",
+        "B-PER" : "person"
+}
 //var SERVER_IP_ADDR = "127.0.0.1";
 //var SERVER_PORT    =  "8181";
 //var SEMITAGS_NER_URL = "http://localhost:9090/SemiTags/rest/v1/ner";
@@ -34,7 +56,7 @@ function getBestCandidate(candidates) {
     var bestCandidate = null;
     var sumCount = 0;
     
-    console.log("Candidates %j", candidates);
+//    console.log("Candidates %j", candidates);
     for (var i in candidates) {
         var count = parseInt(candidates[i]);
         sumCount += count;
@@ -56,9 +78,9 @@ function entitiesIterator(entity, callback) {
     });
 }
 
-function entitiesIteratorNormalized(entity, callback) {
+function entitiesIteratorNormalized(entity, lang, callback) {
     console.log("Processing entity %j", entity);
-    redisClient.select(REDIS_DATABASE_NORMALIZED, function() {
+    redisClient.select(REDIS_DATABASE_NORMALIZED[lang], function() {
         redisClient.hgetall(normalizer.normalize(entity.name[0]), function(err, candidates) {
             processCandidates(err, candidates, entity, entity.name[0], callback);
         });
@@ -88,11 +110,11 @@ function processCandidates(err, candidates, entity, originalEntityName, callback
 }
 
 // Sum
-function coOccurrenceScore(entities, coocCallback) {
+function coOccurrenceScore(entities, lang, coocCallback) {
     var entCandidates = {};
     
     async.eachSeries(entities, function(entity, callback) {
-        redisClient.select(REDIS_DATABASE_NORMALIZED, function() {
+        redisClient.select(REDIS_DATABASE_NORMALIZED[lang], function() {
             redisClient.hgetall(normalizer.normalize(entity.name[0]), function(err, candidates) {
                 if (!candidates) {
                     candidates = {};
@@ -116,7 +138,7 @@ function coOccurrenceScore(entities, coocCallback) {
         }
         var coocMap = {};
         
-        redisClientCoOc.select(REDIS_DATABASE_COOC, function() {
+        redisClientCoOc.select(REDIS_DATABASE_COOC[lang], function() {
             async.eachSeries(Object.keys(entCandidates), function(i, callback1) {
                 console.log("Scoring surface form cooccurrences " + i);
                 async.eachSeries(Object.keys(entCandidates[i].candidates), function(candidate1, callback3) {
@@ -159,11 +181,11 @@ function coOccurrenceScore(entities, coocCallback) {
     });
 }
 
-function coOccurrenceMaxScore(entities, coocCallback) {
+function coOccurrenceMaxScore(entities, lang, coocCallback) {
     var entCandidates = {};
     
     async.eachSeries(entities, function(entity, callback) {
-        redisClient.select(REDIS_DATABASE_NORMALIZED, function() {
+        redisClient.select(REDIS_DATABASE_NORMALIZED[lang], function() {
             redisClient.hgetall(normalizer.normalize(entity.name[0]), function(err, candidates) {
                 if (!candidates) {
                     candidates = {};
@@ -188,7 +210,7 @@ function coOccurrenceMaxScore(entities, coocCallback) {
 
         var coocMap = {};
         
-        redisClientCoOc.select(REDIS_DATABASE_COOC, function() {
+        redisClientCoOc.select(REDIS_DATABASE_COOC[lang], function() {
             async.eachSeries(Object.keys(entCandidates), function(i, callback1) {
                 console.log("Scoring surface form cooccurrences " + i);
                 async.eachSeries(Object.keys(entCandidates[i].candidates), function(candidate1, callback3) {
@@ -263,10 +285,10 @@ function selectBestCandidateBy(metric, scoredCandidates) {
 }
 
 
-function disambiguate(entities, preprocess, callback) {
+function disambiguate(entities, preprocess, lang, callback) {
     var resEntities = [];
     if (preprocess == "sum") {
-        coOccurrenceScore(entities, function(err, scoredCandidates) {
+        coOccurrenceScore(entities, lang, function(err, scoredCandidates) {
             for (var sf in scoredCandidates) {
                 var bestCandidate = selectBestCandidateBy("coocScore", scoredCandidates[sf].candidates);
                 if (!bestCandidate.candidate) {
@@ -287,7 +309,7 @@ function disambiguate(entities, preprocess, callback) {
            callback(null, resEntities);
         });
     } else if (preprocess == "max") {
-        coOccurrenceMaxScore(entities, function(err, scoredCandidates) {
+        coOccurrenceMaxScore(entities, lang, function(err, scoredCandidates) {
             for (var sf in scoredCandidates) {
                 var bestCandidate = selectBestCandidateBy("coocScore", scoredCandidates[sf].candidates);
                 if (!bestCandidate.candidate) {
@@ -308,12 +330,14 @@ function disambiguate(entities, preprocess, callback) {
            callback(null, resEntities);
         });        
     } else {
-        var entitiesItType = entitiesIterator;
-        if (preprocess == "norm")
-            entitiesItType = entitiesIteratorNormalized;
-        
-        async.concat(entities, entitiesItType, callback);
-        
+        if (preprocess == "norm") {
+            
+            async.concat(entities, function(entity, callback) {
+                entitiesIteratorNormalized(entity, lang, callback);
+            }, callback);
+        } else {
+            async.concat(entities, entitiesIterator, callback);
+        }
     }
     
 }
@@ -324,15 +348,19 @@ function recognize(req, res, next) {
     res.connection.setTimeout(86400 * 1000); 
     console.log("Calling SemiTags with text: " + req.params.text);
     
-    request.post(SEMITAGS_NER_URL, {form:{language: "en", text: req.params.text}}, function callback (err, httpResponse, body) {
+    request.post(SEMITAGS_NER_URL, {form:{language: req.params.lang, text: req.params.text}}, function callback (err, httpResponse, body) {
         if (err) {
-            return console.error("SemiTags call failed:", err);
+            console.error("SemiTags call failed:", err);
+            res.send(500 , "SemiTags call failed");
+            return next();
         }
     
         console.log("SemiTags returned " + body);
         xml2js.parseString(body,  function (err, semiTagsEntities) {
             if (err) {
-                return console.error("Failed parsing SemiTags response:", err);
+                console.error("Failed parsing SemiTags response:", err);
+                res.send(500 , "Failed parsing SemiTags response");
+                return next();
             }
             
             var entities = semiTagsEntities.stanfordEntityRestables.stanfordEntityRestable;
@@ -340,6 +368,8 @@ function recognize(req, res, next) {
             if (entities) {
                 var containsQueryEntity = false;
                 for (var i in entities) {
+                    entities[i].type = [TYPE_MAP[entities[i].type]];
+                    
                     if (entities[i].name[0] == req.params.queryEntity) {
                         containsQueryEntity = true;
                     }
@@ -348,7 +378,7 @@ function recognize(req, res, next) {
                     entities.push({name: [req.params.queryEntity], type: [null], start:[null]});
                 }
                 
-                disambiguate(entities, req.params.preprocess, function(err, disambEntities){
+                disambiguate(entities, req.params.preprocess, req.params.lang, function(err, disambEntities){
                     res.send(200 , disambEntities);
                     return next();  
                 });
@@ -362,24 +392,34 @@ function recognize(req, res, next) {
 
 function bestMatch(req, res, next) {
     console.log("Linking entity " + req.params.surfaceForm);
-    redisClient.hgetall(req.params.surfaceForm, function(err, candidates) {
-        console.log("Getting best candidate for " + req.params.surfaceForm);
-        var bestCandidateRes =  getBestCandidate(candidates);
-        var bestCandidate = null;
-        var score = null;
-        if (bestCandidateRes.bestCandidate) {
-            bestCandidate = "http://www.wikipedia.org/wiki/" + bestCandidateRes.bestCandidate;
-            score = bestCandidateRes.score;
-        }
-        
-        res.send(200, { 
-            name: req.surfaceForm, 
-            link: bestCandidate,
-            socre: score
+    if (REDIS_DATABASE_NORMALIZED[req.params.lang]) {
+        redisClient.select(REDIS_DATABASE_NORMALIZED[req.params.lang], function() {
+            redisClient.hgetall(normalizer.normalize(req.params.surfaceForm), function(err, candidates) {
+                console.log("Getting best candidate for " + req.params.surfaceForm);
+                var bestCandidateRes =  getBestCandidate(candidates);
+                var bestCandidate = null;
+                var score = null;
+                if (bestCandidateRes.bestCandidate) {
+                    bestCandidate = "http://" + req.params.lang + ".wikipedia.org/wiki/" + bestCandidateRes.bestCandidate;
+                    score = bestCandidateRes.score;
+                }
+                
+                res.send(200, { 
+                    name: req.surfaceForm, 
+                    link: bestCandidate,
+                    socre: score
+                });
+                
+                return next(); 
+            });
+        });
+    } else {
+        res.send(404, { 
+            message: "Language not supported. Supported lang params en, de, nl."
         });
         
         return next(); 
-    });
+    }
 }
 
 function timeout(req, res, next) {
